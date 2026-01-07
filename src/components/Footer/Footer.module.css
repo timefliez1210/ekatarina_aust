@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--color-bg-footer);
+    padding: var(--spacing-xl) 0;
+}
+
+.footerInner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impressumLink {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    transition: color var(--transition-fast);
+}
+
+.impressumLink:hover {
+    color: var(--color-text);
+}

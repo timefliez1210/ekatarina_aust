@@ -1,0 +1,48 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: var(--color-bg);
+    transition: box-shadow var(--transition-base);
+}
+
+.header.scrolled {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+}
+
+.headerInner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: var(--nav-height);
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Language Switcher */
+.langSwitcher {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.langButton {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+}
+
+.langButton:hover {
+    color: var(--color-text);
+}
+
+.langButton.active {
+    color: var(--color-text);
+    background-color: var(--color-bg-alt);
+}

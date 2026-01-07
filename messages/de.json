@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "title": "Logica - Innenarchitektur",
+        "description": "Professionelles Innendesign in Deutschland und Russland"
+    },
+    "nav": {
+        "about": "Über mich",
+        "projects": "Projekte",
+        "services": "Leistungen",
+        "contacts": "Kontakt"
+    },
+    "hero": {
+        "tagline": "INNENARCHITEKTUR"
+    },
+    "about": {
+        "title": "Über mich",
+        "intro": "Mein Name ist Ekaterina Aust, und ich bin Innenarchitektin, für die dieser Beruf schon immer mehr als nur ein Job war. Seit meiner Schulzeit wusste ich, dass ich Räume schaffen möchte, in denen sich Menschen wohlfühlen – zum Leben, Arbeiten und Entspannen. Nach dem Abschluss der Kunstschule, der Kunstfachschule und meinem Hochschulstudium in diesem Bereich habe ich meinen Traum verwirklicht und lebe seit einigen Jahren in Deutschland, wo ich den Großteil meiner Arbeit durchführe.",
+        "paragraph2": "In meiner Arbeit halte ich mich nicht an einen bestimmten Stil – mir ist es wichtig, dass das Interieur die Persönlichkeit des Auftraggebers widerspiegelt und nicht meine eigenen Vorlieben. Das Wichtigste ist, dass der Raum funktional, komfortabel und schön ist. Ich freue mich, dass jeder Kunde, der sich an mich wendet, nicht nur das Ergebnis, sondern auch die Idee dahinter schätzt!",
+        "howIWork": "Wie arbeite ich?",
+        "workPoint1": "Ich erstelle individuelle Projekte, die auf den Lebensstil und die Wünsche des Kunden abgestimmt sind",
+        "workPoint2": "Ich höre zu, durchdenke Lösungen und finde die Balance zwischen Wünschen und Möglichkeiten",
+        "workPoint3": "Ich biete den kompletten Service: vom Konzept bis zur Bauüberwachung",
+        "workConclusion": "Ich jage nicht nach Zahlen in meinem Beruf, denn diese Arbeit erfordert immer ein lebendiges Engagement. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich das höchste Lob.",
+        "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert auf dem Vertrauen des Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
+        "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
+    },
+    "projects": {
+        "title": "Projekte",
+        "shower": "Badezimmer",
+        "bedroom": "Schlafzimmer",
+        "office": "Büro"
+    },
+    "services": {
+        "title": "Leistungen",
+        "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen oder nur die Etappe, die Sie benötigen: sei es die Raumplanung, Unterstützung beim Einkauf oder die Bauüberwachung. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
+        "tabs": {
+            "consultation": "BERATUNG",
+            "project": "PROJEKT",
+            "estimate": "KOSTENVORANSCHLAG",
+            "complete": "AUSSTATTUNG",
+            "supervision": "BAUÜBERWACHUNG"
+        },
+        "consultation": {
+            "question": "Planen Sie den Kauf einer Wohnung oder eines Hauses? Ich helfe Ihnen, den Grundriss zu bewerten, den Raum zu optimieren und mögliche Änderungen aus der Perspektive der Innenarchitektur zu prüfen.",
+            "duration": "In 1,5 Stunden erhalten Sie:",
+            "point1": "Professionelle Analyse des Objekts",
+            "point2": "Varianten möglicher Umgestaltungen",
+            "point3": "Empfehlungen für das zukünftige Interieur",
+            "durationLabel": "Dauer:",
+            "durationValue": "1,5 Stunden"
+        },
+        "project": {
+            "title": "Komplettes Designprojekt",
+            "description": "Die Entwicklung eines vollständigen Designprojekts umfasst Raumplanungslösungen, 3D-Visualisierung, Baupläne und Materialspezifikationen."
+        },
+        "estimate": {
+            "title": "Kostenvoranschlag und Materialauswahl",
+            "description": "Erstellung eines detaillierten Kostenvoranschlags mit Auswahl von Materialien, Möbeln und Beleuchtung passend zu Ihrem Budget."
+        },
+        "complete": {
+            "title": "Objektausstattung",
+            "description": "Vollständige Begleitung bei Einkäufen: von der Lieferantenauswahl bis zur Lieferkontrolle."
+        },
+        "supervision": {
+            "title": "Bauüberwachung",
+            "description": "Qualitätskontrolle der Projektumsetzung in allen Phasen der Renovierungsarbeiten."
+        }
+    },
+    "contact": {
+        "title": "Stellen Sie sich bitte vor",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "submit": "BERATUNG ANFORDERN",
+        "cta": "Bereit, das Projekt zu besprechen und alle Ihre Fragen zu beantworten? Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf dem für Sie bequemsten Weg.",
+        "phoneLabel": "Telefon:",
+        "phoneDE": "+49 160 2502130",
+        "phoneRU": "+7 925 350 03 88",
+        "emailLabel": "E-Mail:",
+        "emailAddress": "aust.ekaterina@gmail.com"
+    },
+    "footer": {
+        "impressum": "Impressum"
+    }
+}
