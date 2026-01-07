@@ -1,0 +1,119 @@
+.hero {
+    padding-top: calc(var(--nav-height) + var(--spacing-2xl));
+    padding-bottom: var(--spacing-3xl);
+}
+
+.heroInner {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--spacing-4xl);
+    align-items: stretch;
+}
+
+.imageContainer {
+    position: relative;
+    aspect-ratio: 3/4;
+    background-color: var(--color-bg-alt);
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.description {
+    font-size: var(--font-size-sm);
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.highlight {
+    font-weight: var(--font-weight-medium);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* Thumbnail Gallery */
+.thumbnails {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: var(--spacing-3xl) auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.thumbnail {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.thumbnailImage {
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.thumbnail:hover .thumbnailImage {
+    transform: scale(1.03);
+}
+
+@media (max-width: 968px) {
+    .heroInner {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .imageContainer {
+        aspect-ratio: 4/3;
+        max-width: 100%;
+    }
+
+    .textContent {
+        gap: var(--spacing-xl);
+    }
+
+    .thumbnails {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .thumbnails {
+        grid-template-columns: 1fr;
+    }
+}

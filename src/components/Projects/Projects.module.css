@@ -50,10 +50,11 @@
 }
 
 .projectLabel {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
     font-weight: var(--font-weight-normal);
     text-align: center;
     color: var(--color-text);
+    padding-top: var(--spacing-md);
 }
 
 /* Category navigation */

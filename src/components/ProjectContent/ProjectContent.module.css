@@ -1,0 +1,62 @@
+.section {
+    padding: var(--spacing-4xl) 0;
+}
+
+.sectionInner {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-4xl);
+    align-items: center;
+}
+
+.textColumn {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.heading {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-md);
+}
+
+.text {
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--color-text);
+}
+
+.imageColumn {
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    aspect-ratio: 4/5;
+}
+
+.image {
+    object-fit: cover;
+}
+
+/* Reverse layout variant */
+.section.reversed .sectionInner {
+    direction: rtl;
+}
+
+.section.reversed .sectionInner>* {
+    direction: ltr;
+}
+
+@media (max-width: 968px) {
+    .sectionInner {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .section.reversed .sectionInner {
+        direction: ltr;
+    }
+}

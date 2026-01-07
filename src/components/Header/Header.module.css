@@ -14,7 +14,7 @@
 
 .headerInner {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: var(--nav-height);
     width: var(--content-width);
@@ -22,10 +22,27 @@
     margin: 0 auto;
 }
 
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    transition: opacity var(--transition-fast);
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.logoImage {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Language Switcher */
 .langSwitcher {
     display: flex;
     gap: var(--spacing-sm);
+    margin-left: auto;
 }
 
 .langButton {

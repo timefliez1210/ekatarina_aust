@@ -1,15 +1,24 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 
-export default function Header() {
+interface HeaderProps {
+    showLogo?: boolean;
+}
+
+export default function Header({ showLogo = false }: HeaderProps) {
     const locale = useLocale();
     const router = useRouter();
     const pathname = usePathname();
     const [isScrolled, setIsScrolled] = useState(false);
+
+    // Detect if we're on a subpage (not the homepage)
+    const isSubpage = pathname !== `/${locale}` && pathname !== '/';
 
     useEffect(() => {
         const handleScroll = () => {
@@ -28,6 +37,18 @@ export default function Header() {
     return (
         <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
             <div className={styles.headerInner}>
+                {(showLogo || isSubpage) && (
+                    <Link href={`/${locale}`} className={styles.logo}>
+                        <Image
+                            src="/images/logica_innenarchitektur.jpg"
+                            alt="logica"
+                            width={40}
+                            height={40}
+                            className={styles.logoImage}
+                        />
+                    </Link>
+                )}
+
                 <div className={styles.langSwitcher}>
                     <button
                         className={`${styles.langButton} ${locale === 'ru' ? styles.active : ''}`}

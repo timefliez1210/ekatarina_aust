@@ -1,13 +1,14 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
-import { Inter } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/Header/Header';
 import '../globals.css';
 
-const inter = Inter({
+const montserrat = Montserrat({
     subsets: ['latin', 'cyrillic'],
-    variable: '--font-primary'
+    variable: '--font-heading',
+    weight: ['300', '400', '500', '600']
 });
 
 export function generateStaticParams() {
@@ -43,7 +44,7 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale} className={inter.variable}>
+        <html lang={locale} className={montserrat.variable}>
             <body>
                 <NextIntlClientProvider messages={messages}>
                     <Header />

@@ -50,8 +50,41 @@
             "durationValue": "1,5 Stunden"
         },
         "project": {
-            "title": "Komplettes Designprojekt",
-            "description": "Die Entwicklung eines vollständigen Designprojekts umfasst Raumplanungslösungen, 3D-Visualisierung, Baupläne und Materialspezifikationen."
+            "title": "Innenarchitektur – als persönliche Geschichte!",
+            "description": "In meiner Arbeit bin ich überzeugt: Es ist nicht nur wichtig, ein schönes Interieur zu schaffen, sondern auch den Prozess transparent und verständlich zu machen. Ich erkläre detailliert die Phasen der Arbeit am Designprojekt und beziehe Sie in Entscheidungen ein – damit das zukünftige Interieur genau Ihren Stil und Lebensstil widerspiegelt.",
+            "tagline": "Design beginnt mit Vertrauen. Und mit dem ersten Gespräch.",
+            "durationLabel": "Dauer:",
+            "durationValue": "4 Monate",
+            "dropdowns": {
+                "contract": {
+                    "title": "VERTRAG FÜR RAUMPLANUNG",
+                    "text": "Bei einem persönlichen Treffen oder online besprechen wir die wichtigsten Projektparameter: Ihre Wünsche an das Interieur, Budget, Fristen, stilistische Orientierung und Referenzen."
+                },
+                "measurement": {
+                    "title": "AUFMASS UND BRIEFING-GESPRÄCH",
+                    "text": "Nach Vertragsunterzeichnung erfolgt ein professionelles Aufmaß der Räumlichkeiten mittels präziser 3D-Vermessung – dies garantiert die Berücksichtigung aller Besonderheiten des Raumes und eine hohe Qualität des zukünftigen Projekts. Gemeinsam besprechen wir Ihre Wünsche und wählen einen Einrichtungsstil, der ideal zu Ihrem Lebensstil passt. Wir stimmen das Projektbudget ab, damit das Innendesign komfortabel und realistisch umsetzbar ist."
+                },
+                "layout": {
+                    "title": "PLANUNGSLÖSUNG",
+                    "text": "Ich entwickle mehrere Planungsvarianten unter Berücksichtigung der Besonderheiten Ihres Hauses und Ihrer persönlichen Vorlieben. Für mich ist es wichtig, nicht einfach nur ein Interieur zu gestalten, sondern einen bequemen und funktionalen Raum zu schaffen. Gemeinsam besprechen wir jede Variante, wählen aus oder kombinieren Ideen, um die optimale Planungslösung zu finden."
+                },
+                "concept": {
+                    "title": "KONZEPT",
+                    "text": "Ich erstelle ein Interieur-Konzept in Form von 2D-Collagen der Haupträume. In dieser Phase können Sie die grundlegende Idee, die Stilistik der Räume, die Hauptfarben und Materialien sehen. Dies hilft, eine klare Vorstellung vom zukünftigen Raum und seiner Atmosphäre zu bekommen."
+                },
+                "visualization": {
+                    "title": "3D-VISUALISIERUNG",
+                    "text": "In dieser Phase sehen Sie fotorealistische Bilder Ihres Raumes – mit präziser Darstellung von Licht, Texturen und Möbeldetails. Visualisierungen ermöglichen es Ihnen, Volumen, Maßstab und Atmosphäre jedes Winkels Ihres Hauses zu spüren."
+                },
+                "technical": {
+                    "title": "UMSETZUNGSPLÄNE UND DETAILLIERUNG",
+                    "text": "Ich erstelle eine detaillierte technische Beschreibung des Interieurs, einschließlich der Entwicklung von Plänen für Möbel, Ausbau und Einbauelemente unter Berücksichtigung aller Nuancen. Sie erhalten einen vollständigen Satz von Plänen, Wandabwicklungen, Schnitten und Zeichnungen für Maßmöbel. Die genaue Angabe der Positionierung von Elektrik, Beleuchtung, Sanitär, Ausbaumaterialien und Bodenbelägen ermöglicht eine fehlerfreie und verzögerungsfreie Renovierung. Jedes Element des Interieurs entspricht den zuvor abgestimmten Visualisierungen, was die Arbeit für Auftragnehmer und Möbelhersteller erleichtert."
+                },
+                "materials": {
+                    "title": "MATERIALAUFSTELLUNG",
+                    "text": "Eine Liste mit genauen Bezeichnungen, Mengen, Farben und technischen Merkmalen jedes Elements – von Bodenbelägen und Wandverkleidungen bis hin zu Beleuchtung und Wohnaccessoires. Die Materialaufstellung hilft Ihnen, Fehler und unnötige Kosten zu vermeiden, genau zu verstehen, was und in welcher Menge gekauft werden muss, sowie eine qualitativ hochwertige Umsetzung Ihres Interieurs zu gewährleisten."
+                }
+            }
         },
         "estimate": {
             "title": "Kostenvoranschlag und Materialauswahl",

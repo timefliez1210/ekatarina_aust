@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import styles from './Hero.module.css';
 
@@ -32,7 +33,14 @@ export default function Hero() {
         <section className={styles.hero}>
             <div className={styles.logoContainer}>
                 <div className={styles.logoCircle}>
-                    <span className={styles.logoText}>logica</span>
+                    <Image
+                        src="/images/logica_innenarchitektur.jpg"
+                        alt="logica"
+                        width={200}
+                        height={200}
+                        className={styles.logoImage}
+                        priority
+                    />
                 </div>
                 <p className={styles.tagline}>{t('tagline')}</p>
             </div>

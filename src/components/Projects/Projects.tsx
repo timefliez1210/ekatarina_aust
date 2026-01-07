@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 import styles from './Projects.module.css';
 
 const projects = [
@@ -27,6 +28,7 @@ const projects = [
 
 export default function Projects() {
     const t = useTranslations('projects');
+    const locale = useLocale();
 
     return (
         <section id="projects" className={styles.projects}>
@@ -36,16 +38,33 @@ export default function Projects() {
                 <div className={styles.grid}>
                     {projects.map((project) => (
                         <article key={project.id} className={styles.projectCard}>
-                            <div className={styles.imageWrapper}>
-                                <Image
-                                    src={project.image}
-                                    alt={t(project.labelKey)}
-                                    fill
-                                    className={styles.projectImage}
-                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                                />
-                            </div>
-                            <p className={styles.projectLabel}>{t(project.labelKey)}</p>
+                            {project.labelKey === 'shower' ? (
+                                <Link href={`/${locale}/bathroom-design`} className={styles.linkWrapper}>
+                                    <div className={styles.imageWrapper}>
+                                        <Image
+                                            src={project.image}
+                                            alt={t(project.labelKey)}
+                                            fill
+                                            className={styles.projectImage}
+                                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                        />
+                                    </div>
+                                    <p className={styles.projectLabel}>{t(project.labelKey)}</p>
+                                </Link>
+                            ) : (
+                                <>
+                                    <div className={styles.imageWrapper}>
+                                        <Image
+                                            src={project.image}
+                                            alt={t(project.labelKey)}
+                                            fill
+                                            className={styles.projectImage}
+                                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                        />
+                                    </div>
+                                    <p className={styles.projectLabel}>{t(project.labelKey)}</p>
+                                </>
+                            )}
                         </article>
                     ))}
                 </div>

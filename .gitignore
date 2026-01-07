@@ -41,6 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # project specific
-/base_design_template
+#/base_design_template
 /assets
 prompt.md

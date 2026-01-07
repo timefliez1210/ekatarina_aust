@@ -116,6 +116,63 @@
     line-height: 1.8;
 }
 
+.tabTitle {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-md);
+}
+
+.tagline {
+    font-size: var(--font-size-sm);
+    font-style: italic;
+    color: var(--color-text);
+    margin: var(--spacing-md) 0;
+}
+
+/* Dropdowns / Accordions */
+.dropdowns {
+    margin-top: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.dropdown {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.dropdownHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md) 0;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    text-align: left;
+    color: var(--color-text);
+    transition: color var(--transition-fast);
+}
+
+.dropdownHeader:hover {
+    color: var(--color-text-muted);
+}
+
+.dropdownIcon {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-light);
+}
+
+.dropdownContent {
+    padding-bottom: var(--spacing-lg);
+}
+
+.dropdownContent p {
+    font-size: var(--font-size-sm);
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
 @media (max-width: 768px) {
     .tabNav {
         gap: var(--spacing-sm);
