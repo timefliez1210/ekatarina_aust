@@ -1,0 +1,118 @@
+.officeGallery {
+    padding: var(--spacing-3xl) 0;
+}
+
+.galleryInner {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Row 1 & 4 & 5: Equal columns (1fr 1fr or 1fr 1fr 1fr) */
+.twoColumnEqual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.threeColumnEqual {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.equalImage {
+    position: relative;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.equalImage img {
+    object-fit: cover;
+}
+
+/* Row 2: Full width */
+.fullWidthRow {
+    margin-bottom: var(--spacing-lg);
+}
+
+.fullWidthImage {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.fullWidthImage img {
+    object-fit: cover;
+}
+
+/* Row 3: 1 large + 2 small + 1 large */
+.fourImageGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-3xl);
+}
+
+.largeImage {
+    position: relative;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.largeImage img {
+    object-fit: cover;
+}
+
+.smallImagesColumn {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.smallImage {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.smallImage img {
+    object-fit: cover;
+}
+
+/* Text section */
+.textSection {
+    max-width: 800px;
+    margin: var(--spacing-3xl) auto;
+    text-align: left;
+}
+
+.text {
+    font-size: var(--font-size-sm);
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+
+    .twoColumnEqual,
+    .threeColumnEqual {
+        grid-template-columns: 1fr;
+    }
+
+    .fourImageGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .smallImagesColumn {
+        flex-direction: row;
+    }
+}

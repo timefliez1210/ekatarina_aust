@@ -51,9 +51,9 @@ export default async function BedroomMosaikPage({
         },
         {
             id: 3,
-            slug: 'office-design',
-            image: '/images/JiACiOGiE0Tu1cxKpYZWNWhg3vaYq0CiFjG_F7703Ks4dAJkerJbiqciRQ_ovPKhnqiZt3Sg9Zc93ENbdliFYw.jpg',
-            label: locale === 'ru' ? 'Кабинет' : 'Büro'
+            slug: 'arbeitszimmer-kabinet',
+            image: '/images/Arbeitszimmer-Design-Link-Section-4.jpg',
+            label: locale === 'ru' ? 'Кабинет' : 'Arbeitszimmer'
         },
         {
             id: 4,

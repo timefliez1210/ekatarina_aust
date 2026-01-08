@@ -1,0 +1,50 @@
+.officeRenders {
+    padding: var(--spacing-3xl) 0;
+    text-align: center;
+}
+
+.rendersInner {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.imagesRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.renderImage {
+    position: relative;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.renderImage img {
+    object-fit: cover;
+}
+
+.creditsSection {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.creditText {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+@media (max-width: 968px) {
+    .imagesRow {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto var(--spacing-xl);
+    }
+}

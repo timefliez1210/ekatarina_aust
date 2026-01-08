@@ -19,8 +19,8 @@ const projects = [
     {
         id: 3,
         labelKey: 'office',
-        slug: null,
-        image: '/images/JiACiOGiE0Tu1cxKpYZWNWhg3vaYq0CiFjG_F7703Ks4dAJkerJbiqciRQ_ovPKhnqiZt3Sg9Zc93ENbdliFYw.jpg'
+        slug: 'arbeitszimmer-kabinet',
+        image: '/images/Arbeitszimmer-Design-Link-Section-4.jpg'
     },
     {
         id: 4,
