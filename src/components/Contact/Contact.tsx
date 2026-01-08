@@ -30,12 +30,36 @@ export default function Contact() {
 
     return (
         <section id="contact" className={styles.contact}>
+            {/* Hidden form for Netlify form detection (pre-render) */}
+            <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+                <input type="text" name="firstName" />
+                <input type="text" name="lastName" />
+                <input type="email" name="email" />
+                <input type="tel" name="phone" />
+            </form>
+
             <div className={styles.contactInner}>
                 {/* Form Section */}
                 <div className={styles.formSection}>
                     <h2 className={styles.title}>{t('title')}</h2>
 
-                    <form className={styles.form} onSubmit={handleSubmit}>
+                    <form
+                        className={styles.form}
+                        name="contact"
+                        method="POST"
+                        data-netlify="true"
+                        netlify-honeypot="bot-field"
+                        onSubmit={handleSubmit}
+                    >
+                        {/* Hidden field for Netlify */}
+                        <input type="hidden" name="form-name" value="contact" />
+                        {/* Honeypot field for spam protection */}
+                        <p hidden>
+                            <label>
+                                Don&apos;t fill this out: <input name="bot-field" onChange={handleChange} />
+                            </label>
+                        </p>
+
                         <div className={styles.formRow}>
                             <div className={styles.formGroup}>
                                 <label htmlFor="firstName" className={styles.label}>
