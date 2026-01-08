@@ -1,11 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 import styles from './Contact.module.css';
 
 export default function Contact() {
     const t = useTranslations('contact');
+    const locale = useLocale();
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -121,9 +123,12 @@ export default function Contact() {
                             </a>
                         </div>
 
-                        <a href="#" className={styles.impressumLink}>
+                        <Link href={`/${locale}/impressum`} className={styles.impressumLink}>
                             Impressum
-                        </a>
+                        </Link>
+                        <Link href={`/${locale}/datenschutz`} className={styles.impressumLink}>
+                            Datenschutz
+                        </Link>
                     </div>
                 </div>
             </div>

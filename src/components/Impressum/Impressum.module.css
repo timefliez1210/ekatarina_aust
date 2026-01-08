@@ -1,0 +1,125 @@
+.impressumPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Simple header with logo and language */
+.simpleHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-2xl) var(--spacing-2xl) var(--spacing-lg);
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logoLink {
+    display: block;
+    margin-bottom: var(--spacing-lg);
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.languageSwitcher {
+    display: flex;
+    gap: var(--spacing-md);
+    position: absolute;
+    top: var(--spacing-lg);
+    right: var(--spacing-2xl);
+}
+
+.langLink {
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+}
+
+.langLink:hover {
+    opacity: 0.7;
+}
+
+.langLink.active {
+    font-weight: var(--font-weight-medium);
+}
+
+/* Main content */
+.impressumContent {
+    flex: 1;
+    width: var(--content-width);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.pageTitle {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-2xl);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.sectionTitle {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-sm);
+    background-color: var(--color-primary);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    display: inline-block;
+}
+
+.sectionContent {
+    font-size: var(--font-size-sm);
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.sectionContent p {
+    margin-bottom: var(--spacing-md);
+}
+
+.fieldLabel {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-xs);
+    background-color: var(--color-primary);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    display: inline-block;
+}
+
+.fieldValue {
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-lg);
+    min-height: var(--spacing-lg);
+}
+
+.link {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .simpleHeader {
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    .impressumContent {
+        padding: var(--spacing-lg);
+    }
+}
