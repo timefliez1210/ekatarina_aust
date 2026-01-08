@@ -93,20 +93,54 @@ export default function Services() {
 
                     {/* Estimate Tab */}
                     <div className={`${styles.tabPanel} ${activeTab === 'estimate' ? styles.active : ''}`}>
-                        <h3 className={styles.tabTitle}>{t('estimate.title')}</h3>
-                        <p className={styles.serviceDescription}>{t('estimate.description')}</p>
+                        <p className={styles.serviceDescription}>{t('estimate.intro')}</p>
+                        <p className={styles.durationInfo}>
+                            <span>{t('estimate.durationLabel')}</span> {t('estimate.durationValue')}
+                        </p>
+                        <p className={styles.sectionHeader}>{t('estimate.whatYouGet')}</p>
+                        <ul className={styles.pointList}>
+                            <li className={styles.point}>– {t('estimate.point1')}</li>
+                            <li className={styles.point}>– {t('estimate.point2')}</li>
+                            <li className={styles.point}>– {t('estimate.point3')}</li>
+                            <li className={styles.point}>– {t('estimate.point4')}</li>
+                        </ul>
+                        <p className={styles.sectionHeader}>{t('estimate.whyNeeded')}</p>
+                        <p className={styles.serviceDescription}>{t('estimate.whyText')}</p>
                     </div>
 
                     {/* Complete Tab */}
                     <div className={`${styles.tabPanel} ${activeTab === 'complete' ? styles.active : ''}`}>
-                        <h3 className={styles.tabTitle}>{t('complete.title')}</h3>
-                        <p className={styles.serviceDescription}>{t('complete.description')}</p>
+                        <p className={styles.serviceDescription}>{t('complete.intro')}</p>
+                        <p className={styles.durationInfo}>
+                            <span>{t('complete.durationLabel')}</span> {t('complete.durationValue')}
+                        </p>
+                        <p className={styles.sectionHeader}>{t('complete.whatIncluded')}</p>
+                        <ul className={styles.pointList}>
+                            <li className={styles.point}>– {t('complete.point1')}</li>
+                            <li className={styles.point}>– {t('complete.point2')}</li>
+                            <li className={styles.point}>– {t('complete.point3')}</li>
+                            <li className={styles.point}>– {t('complete.point4')}</li>
+                            <li className={styles.point}>– {t('complete.point5')}</li>
+                            <li className={styles.point}>– {t('complete.point6')}</li>
+                        </ul>
+                        <p className={styles.conclusion}>{t('complete.conclusion')}</p>
                     </div>
 
                     {/* Supervision Tab */}
                     <div className={`${styles.tabPanel} ${activeTab === 'supervision' ? styles.active : ''}`}>
-                        <h3 className={styles.tabTitle}>{t('supervision.title')}</h3>
-                        <p className={styles.serviceDescription}>{t('supervision.description')}</p>
+                        <p className={styles.serviceDescription}>{t('supervision.intro')}</p>
+                        <p className={styles.durationInfo}>
+                            <span>{t('supervision.durationLabel')}</span> {t('supervision.durationValue')}
+                        </p>
+                        <p className={styles.sectionHeader}>{t('supervision.whatIncluded')}</p>
+                        <ul className={styles.pointList}>
+                            <li className={styles.point}>– {t('supervision.point1')}</li>
+                            <li className={styles.point}>– {t('supervision.point2')}</li>
+                            <li className={styles.point}>– {t('supervision.point3')}</li>
+                            <li className={styles.point}>– {t('supervision.point4')}</li>
+                            <li className={styles.point}>– {t('supervision.point5')}</li>
+                            <li className={styles.point}>– {t('supervision.point6')}</li>
+                        </ul>
                     </div>
                 </div>
             </div>

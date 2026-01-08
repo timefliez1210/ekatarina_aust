@@ -92,14 +92,6 @@
 .point {
     font-size: var(--font-size-sm);
     line-height: 1.8;
-    padding-left: var(--spacing-lg);
-    position: relative;
-}
-
-.point::before {
-    content: '—';
-    position: absolute;
-    left: 0;
 }
 
 .durationInfo {
@@ -127,6 +119,20 @@
     font-style: italic;
     color: var(--color-text);
     margin: var(--spacing-md) 0;
+}
+
+.sectionHeader {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    margin: var(--spacing-lg) 0 var(--spacing-md);
+}
+
+.conclusion {
+    font-size: var(--font-size-sm);
+    font-style: italic;
+    line-height: 1.8;
+    margin-top: var(--spacing-lg);
+    color: var(--color-text);
 }
 
 /* Dropdowns / Accordions */

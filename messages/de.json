@@ -14,14 +14,14 @@
     },
     "about": {
         "title": "Über mich",
-        "intro": "Mein Name ist Ekaterina Aust, und ich bin Innenarchitektin, für die dieser Beruf schon immer mehr als nur ein Job war. Seit meiner Schulzeit wusste ich, dass ich Räume schaffen möchte, in denen sich Menschen wohlfühlen – zum Leben, Arbeiten und Entspannen. Nach dem Abschluss der Kunstschule, der Kunstfachschule und meinem Hochschulstudium in diesem Bereich habe ich meinen Traum verwirklicht und lebe seit einigen Jahren in Deutschland, wo ich den Großteil meiner Arbeit durchführe.",
-        "paragraph2": "In meiner Arbeit halte ich mich nicht an einen bestimmten Stil – mir ist es wichtig, dass das Interieur die Persönlichkeit des Auftraggebers widerspiegelt und nicht meine eigenen Vorlieben. Das Wichtigste ist, dass der Raum funktional, komfortabel und schön ist. Ich freue mich, dass jeder Kunde, der sich an mich wendet, nicht nur das Ergebnis, sondern auch die Idee dahinter schätzt!",
+        "intro": "Mein Name ist Ekaterina Aust, und ich bin Innenarchitektin, für die dieser Beruf schon immer mehr als nur ein Job war. Seit meiner Schulzeit wusste ich, dass ich Räume schaffen möchte, in denen sich Menschen wohlfühlen – zum Leben, Arbeiten und Entspannen. Nach dem Abschluss der Kunstschule, der Kunstfachschule und meinem Hochschulstudium in diesem Bereich habe ich meinen Traum verwirklicht. Seit einigen Jahren lebe ich in Deutschland und entwerfe mit der Leichtigkeit, mit der ich noch nicht Deutsch spreche.",
+        "paragraph2": "In meiner Arbeit halte ich mich nicht an einen bestimmten Stil – mir ist es wichtig, dass das Interieur die Persönlichkeit des Auftraggebers widerspiegelt und nicht meine eigenen Vorlieben. Das Wichtigste ist, dass der Raum funktional, komfortabel und logisch organisiert ist. Auf einer soliden Grundlage wird dann die Stilistik aufgebaut, um ein harmonisches Interieur zu schaffen. Ich bin überzeugt, dass Kunden, die sich an einen Designer wenden, nicht nur nach einer Renovierung suchen, sondern nach einer Idee und einem Konzept, die ihr Zuhause besonders machen.",
         "howIWork": "Wie arbeite ich?",
         "workPoint1": "Ich erstelle individuelle Projekte, die auf den Lebensstil und die Wünsche des Kunden abgestimmt sind",
-        "workPoint2": "Ich höre zu, durchdenke Lösungen und finde die Balance zwischen Wünschen und Möglichkeiten",
+        "workPoint2": "Ich höre zu, schlage Lösungen vor und finde die Balance zwischen Wünschen und Möglichkeiten",
         "workPoint3": "Ich biete den kompletten Service: vom Konzept bis zur Bauüberwachung",
-        "workConclusion": "Ich jage nicht nach Zahlen in meinem Beruf, denn diese Arbeit erfordert immer ein lebendiges Engagement. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich das höchste Lob.",
-        "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert auf dem Vertrauen des Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
+        "workConclusion": "Ich jage nicht nach Zahlen und Jahren in meinem Beruf, denn die beste Empfehlung für einen Spezialisten ist seine Arbeit. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich der beste Qualitätsindikator.",
+        "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert vor allem auf dem Vertrauen der Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
         "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
     },
     "projects": {
@@ -32,7 +32,7 @@
     },
     "services": {
         "title": "Leistungen",
-        "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen oder nur die Etappe, die Sie benötigen: sei es die Raumplanung, Unterstützung beim Einkauf oder die Bauüberwachung. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
+        "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen können oder nur die Etappe, die Sie benötigen! Sei es die Raumplanung, Unterstützung beim Einkauf oder die Kontrolle der Auftragnehmer. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
         "tabs": {
             "consultation": "BERATUNG",
             "project": "PROJEKT",
@@ -87,16 +87,44 @@
             }
         },
         "estimate": {
-            "title": "Kostenvoranschlag und Materialauswahl",
-            "description": "Erstellung eines detaillierten Kostenvoranschlags mit Auswahl von Materialien, Möbeln und Beleuchtung passend zu Ihrem Budget."
+            "title": "Kostenvoranschlag",
+            "intro": "Der Kostenvoranschlag ist eine zusätzliche Dienstleistung, bei der ich alle Elemente des zukünftigen Interieurs mit echten Artikelnummern, Marken, Farben und Preisen von konkreten Lieferanten auswähle. So können Sie noch vor Beginn der Renovierung die tatsächlichen Kosten der Umsetzung einschätzen.",
+            "durationLabel": "Zeitrahmen:",
+            "durationValue": "1,5 Monate",
+            "whatYouGet": "Sie erhalten:",
+            "point1": "eine detaillierte Tabelle mit allen Positionen: Veredelung, Möbel, Sanitär, Beleuchtung, Textilien und Dekoration",
+            "point2": "Angabe von Artikelnummern, Herstellern, Lieferanten und Mengen",
+            "point3": "Vergleich von Angeboten und Lieferbedingungen verschiedener Hersteller",
+            "point4": "die Möglichkeit, im Voraus zu verstehen, welches Budget benötigt wird und wo es ohne Qualitätsverlust angepasst werden kann",
+            "whyNeeded": "Warum braucht man einen Kostenvoranschlag?",
+            "whyText": "Der Kostenvoranschlag hilft, unerwartete Ausgaben zu vermeiden, Einkäufe genau zu planen und das Interieur im Rahmen des Budgets umzusetzen. Besonders relevant für diejenigen, die die Ausgaben kontrollieren, schrittweise einkaufen oder die Finanzen im Voraus verteilen möchten."
         },
         "complete": {
-            "title": "Objektausstattung",
-            "description": "Vollständige Begleitung bei Einkäufen: von der Lieferantenauswahl bis zur Lieferkontrolle."
+            "title": "Ausstattung",
+            "intro": "Die Ausstattung ist eine Dienstleistung, bei der ich die Organisation der Beschaffung aller im Projekt genehmigten Materialien, Möbel, Sanitäranlagen, Beleuchtung und Dekoration übernehme. Sie werden von der Kommunikation mit Dutzenden von Lieferanten und der Logistikkontrolle befreit – ich begleite den Prozess von der Auswahl bis zur Lieferung und Montage vor Ort.",
+            "durationLabel": "Zeitrahmen:",
+            "durationValue": "Projektumsetzungsphase",
+            "whatIncluded": "Was ist in der Dienstleistung enthalten:",
+            "point1": "Anfrage und Vergleich von Angeboten von Lieferanten für alle Positionen aus dem Projekt",
+            "point2": "Abstimmung von Mustern und Auswahl von Alternativen, wenn benötigte Positionen nicht mehr produziert werden",
+            "point3": "Planung und Kontrolle der Liefertermine, damit die Baustelle nicht stillsteht",
+            "point4": "Organisation von Besuchen in Salons und Showrooms zur Auswahl von Möbeln, Veredelung und Textilien",
+            "point5": "Auftragsabwicklung, Zahlungskontrolle, Logistik und Warenannahme vor Ort im Namen des Kunden",
+            "point6": "Fotodokumentation und Überprüfung der Übereinstimmung von Lieferungen mit Projekt und Kostenvoranschlag",
+            "conclusion": "Diese Dienstleistung ist besonders wichtig in der Projektumsetzungsphase – sie garantiert, dass das Interieur genau so umgesetzt wird, wie es geplant war."
         },
         "supervision": {
             "title": "Bauüberwachung",
-            "description": "Qualitätskontrolle der Projektumsetzung in allen Phasen der Renovierungsarbeiten."
+            "intro": "Die Bauüberwachung ist die Begleitung der Renovierung in allen Phasen. Ich kontrolliere persönlich, dass die Bauarbeiter das Interieur gemäß den genehmigten Umsetzungsplänen und Visualisierungen umsetzen.",
+            "durationLabel": "Zeitrahmen:",
+            "durationValue": "Projektumsetzungsphase",
+            "whatIncluded": "Was ist in der Dienstleistung enthalten:",
+            "point1": "geplante Besuche vor Ort einmal pro Woche",
+            "point2": "Kommunikation mit Auftragnehmern und Bauarbeitern, Beantwortung aller aufkommenden Fragen",
+            "point3": "Überprüfung der Übereinstimmung mit Umsetzungsplänen und Visualisierungen",
+            "point4": "Präzisierung und Änderungen an Umsetzungsplänen bei Bedarf",
+            "point5": "Kontrolle von Veredelung, Farben und Materialien, komplexen Knotenpunkten und Details",
+            "point6": "Führung von Fotoberichten und Kommentaren im Chat mit dem Kunden"
         }
     },
     "contact": {
@@ -106,10 +134,10 @@
         "email": "E-Mail",
         "phone": "Telefon",
         "submit": "BERATUNG ANFORDERN",
-        "cta": "Bereit, das Projekt zu besprechen und alle Ihre Fragen zu beantworten? Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf dem für Sie bequemsten Weg.",
+        "cta": "Ich freue mich, Ihr Projekt zu besprechen und alle Ihre Fragen zu beantworten! Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf einem der unten angegebenen Wege.",
         "phoneLabel": "Telefon:",
-        "phoneDE": "+49 160 2502130",
-        "phoneRU": "+7 925 350 03 88",
+        "phoneDE": "+49 160 2332135",
+        "phoneRU": "+7 915 293 63 69",
         "emailLabel": "E-Mail:",
         "emailAddress": "aust.ekaterina@gmail.com"
     },

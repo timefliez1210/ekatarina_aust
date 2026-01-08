@@ -1,0 +1,144 @@
+.section {
+    padding: var(--spacing-4xl) 0;
+}
+
+.sectionInner {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Row 1: Single large image */
+.singleLargeImage {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+    margin-bottom: var(--spacing-3xl);
+}
+
+.singleLargeImage img {
+    object-fit: cover;
+}
+
+/* Row 2: 1fr 2fr layout (small left, large right) - same height */
+.twoColumnLayout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-3xl);
+    align-items: stretch;
+}
+
+.smallLeftImage {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+    min-height: 400px;
+}
+
+.smallLeftImage img {
+    object-fit: cover;
+}
+
+.largeRightImage {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.largeRightImage img {
+    object-fit: cover;
+}
+
+/* Text block */
+.textBlock {
+    max-width: 900px;
+    margin: 0 auto var(--spacing-3xl);
+}
+
+.text {
+    font-size: var(--font-size-sm);
+    line-height: 1.8;
+    color: var(--color-text);
+    text-align: center;
+}
+
+.italicText {
+    font-style: italic;
+    margin-top: var(--spacing-lg);
+}
+
+/* Row 3: 2 large + 2 small grid (Large, Small, Large) */
+.fourImageGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: var(--spacing-lg);
+    align-items: stretch;
+    margin-bottom: var(--spacing-3xl);
+}
+
+/* Row 4: Different order (Large, Large, Small) */
+.fourImageGridAlt {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: var(--spacing-lg);
+    align-items: stretch;
+    margin-bottom: var(--spacing-3xl);
+}
+
+.largeImage {
+    position: relative;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.largeImage img {
+    object-fit: cover;
+}
+
+.smallImagesColumn {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    height: 100%;
+}
+
+.smallImage {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    background-color: var(--color-bg-alt);
+}
+
+.smallImage img {
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .twoColumnLayout {
+        grid-template-columns: 1fr;
+    }
+
+    .fourImageGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .smallImagesColumn {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 480px) {
+    .fourImageGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .smallImagesColumn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

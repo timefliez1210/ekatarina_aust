@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './ProjectHero.module.css';
 
 interface ProjectHeroProps {
@@ -6,6 +7,8 @@ interface ProjectHeroProps {
     subtitle?: string;
     description: string;
     highlightText?: string;
+    highlightLink?: string;
+    highlightLinkText?: string;
     mainImage: string;
     thumbnails?: string[];
 }
@@ -15,6 +18,8 @@ export default function ProjectHero({
     subtitle,
     description,
     highlightText,
+    highlightLink,
+    highlightLinkText,
     mainImage,
     thumbnails = []
 }: ProjectHeroProps) {
@@ -39,7 +44,17 @@ export default function ProjectHero({
 
                     <p className={styles.description}>
                         {highlightText && (
-                            <span className={styles.highlight}>{highlightText}</span>
+                            <>
+                                <span className={styles.highlight}>{highlightText}</span>
+                                {highlightLink && highlightLinkText && (
+                                    <>
+                                        {' '}
+                                        <Link href={highlightLink} className={styles.inlineLink}>
+                                            {highlightLinkText}
+                                        </Link>
+                                    </>
+                                )}
+                            </>
                         )}{' '}
                         {description}
                     </p>

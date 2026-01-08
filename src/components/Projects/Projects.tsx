@@ -7,21 +7,25 @@ const projects = [
     {
         id: 1,
         labelKey: 'shower',
-        image: '/images/JiACiOGiE0Tu1cxKpYZWNQFKaYpfnpoGFS_79cpRGUG_IKBmDUcQ16aUdQrFYmZoS1hhnrauOQ441tdUfMXz-g.jpg'
+        slug: 'duschbad-dush',
+        image: '/images/Dusche-Design-Titel.jpg'
     },
     {
         id: 2,
         labelKey: 'bedroom',
-        image: '/images/JiACiOGiE0Tu1cxKpYZWNRA86JFzvr1gdHZJsTiDKQFOCsmISN1xB-CQsRMRuAzn_It-7kPJlhgYgkU-PTBl4w-scaled.jpg'
+        slug: 'schlafzimmer-spalnya',
+        image: '/images/Schlafzimmer-Design-1-Link.jpg'
     },
     {
         id: 3,
         labelKey: 'office',
+        slug: null,
         image: '/images/JiACiOGiE0Tu1cxKpYZWNWhg3vaYq0CiFjG_F7703Ks4dAJkerJbiqciRQ_ovPKhnqiZt3Sg9Zc93ENbdliFYw.jpg'
     },
     {
         id: 4,
         labelKey: 'bedroom',
+        slug: null,
         image: '/images/JiACiOGiE0Tu1cxKpYZWNT-5x4E1NFaINzgxGe1mlaMhyeDHd0aEfWbzFLLK4SthMEA41PFcC2NXKzK2RuINsA-scaled.jpg'
     }
 ];
@@ -38,8 +42,8 @@ export default function Projects() {
                 <div className={styles.grid}>
                     {projects.map((project) => (
                         <article key={project.id} className={styles.projectCard}>
-                            {project.labelKey === 'shower' ? (
-                                <Link href={`/${locale}/bathroom-design`} className={styles.linkWrapper}>
+                            {project.slug ? (
+                                <Link href={`/${locale}/${project.slug}`} className={styles.linkWrapper}>
                                     <div className={styles.imageWrapper}>
                                         <Image
                                             src={project.image}
