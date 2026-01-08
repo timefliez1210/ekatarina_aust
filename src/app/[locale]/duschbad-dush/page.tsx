@@ -57,9 +57,9 @@ export default async function BathroomDesignPage({
         },
         {
             id: 4,
-            slug: 'living-room-design',
-            image: '/images/JiACiOGiE0Tu1cxKpYZWNT-5x4E1NFaINzgxGe1mlaMhyeDHd0aEfWbzFLLK4SthMEA41PFcC2NXKzK2RuINsA-scaled.jpg',
-            label: locale === 'ru' ? 'Гостиная' : 'Wohnzimmer'
+            slug: 'schlafzimmer-spalnya-2',
+            image: '/images/Schlafzimmer-Design-2-link-titel.jpg',
+            label: locale === 'ru' ? 'Спальня' : 'Schlafzimmer'
         }
     ];
 

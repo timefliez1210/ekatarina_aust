@@ -25,8 +25,8 @@ const projects = [
     {
         id: 4,
         labelKey: 'bedroom',
-        slug: null,
-        image: '/images/JiACiOGiE0Tu1cxKpYZWNT-5x4E1NFaINzgxGe1mlaMhyeDHd0aEfWbzFLLK4SthMEA41PFcC2NXKzK2RuINsA-scaled.jpg'
+        slug: 'schlafzimmer-spalnya-2',
+        image: '/images/Schlafzimmer-Design-2-link-titel.jpg'
     }
 ];
 
