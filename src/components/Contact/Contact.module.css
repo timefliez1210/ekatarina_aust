@@ -47,7 +47,8 @@
 .label {
     font-family: var(--font-heading);
     font-size: var(--font-size-xs);
-    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
 }
 
 .input {
@@ -125,7 +126,8 @@
 .infoLabel {
     font-family: var(--font-heading);
     font-size: var(--font-size-xs);
-    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
 }
 
 .infoValue {
@@ -143,7 +145,8 @@
 .impressumLink {
     font-family: var(--font-heading);
     font-size: var(--font-size-sm);
-    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
     margin-top: var(--spacing-lg);
     transition: color var(--transition-fast);
 }
