@@ -14,6 +14,8 @@ export default function Contact() {
         email: '',
         phone: ''
     });
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setFormData({
@@ -22,37 +24,57 @@ export default function Contact() {
         });
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        // Handle form submission
-        console.log('Form submitted:', formData);
+        setIsSubmitting(true);
+        setSubmitStatus('idle');
+
+        try {
+            const response = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                    'form-name': 'contact',
+                    ...formData
+                }).toString()
+            });
+
+            if (response.ok) {
+                setSubmitStatus('success');
+                setFormData({ firstName: '', lastName: '', email: '', phone: '' });
+            } else {
+                setSubmitStatus('error');
+            }
+        } catch {
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <section id="contact" className={styles.contact}>
-            {/* Hidden form for Netlify form detection (pre-render) */}
-            <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
-                <input type="text" name="firstName" />
-                <input type="text" name="lastName" />
-                <input type="email" name="email" />
-                <input type="tel" name="phone" />
-            </form>
-
             <div className={styles.contactInner}>
                 {/* Form Section */}
                 <div className={styles.formSection}>
                     <h2 className={styles.title}>{t('title')}</h2>
 
+                    {submitStatus === 'success' && (
+                        <div className={styles.successMessage}>
+                            {locale === 'ru' ? 'Спасибо! Мы свяжемся с вами в ближайшее время.' : 'Vielen Dank! Wir werden uns bald bei Ihnen melden.'}
+                        </div>
+                    )}
+
+                    {submitStatus === 'error' && (
+                        <div className={styles.errorMessage}>
+                            {locale === 'ru' ? 'Произошла ошибка. Пожалуйста, попробуйте снова.' : 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.'}
+                        </div>
+                    )}
+
                     <form
                         className={styles.form}
-                        name="contact"
-                        method="POST"
-                        data-netlify="true"
-                        netlify-honeypot="bot-field"
                         onSubmit={handleSubmit}
                     >
-                        {/* Hidden field for Netlify */}
-                        <input type="hidden" name="form-name" value="contact" />
                         {/* Honeypot field for spam protection */}
                         <p hidden>
                             <label>

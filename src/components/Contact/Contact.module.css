@@ -129,6 +129,24 @@
     color: var(--color-text);
 }
 
+.successMessage {
+    padding: var(--spacing-md);
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+}
+
+.errorMessage {
+    padding: var(--spacing-md);
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .contactInner {
