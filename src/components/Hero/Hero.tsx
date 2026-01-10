@@ -40,6 +40,7 @@ export default function Hero() {
                         height={200}
                         className={styles.logoImage}
                         priority
+                        fetchPriority="high"
                     />
                 </div>
                 <h1 className={styles.tagline}>{t('tagline')}</h1>

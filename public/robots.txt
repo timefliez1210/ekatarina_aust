@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ekaterina-aust.de/sitemap.xml
+
+# Disallow admin or private paths (if any)
+Disallow: /api/
