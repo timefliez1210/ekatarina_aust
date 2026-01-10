@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Homepage - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Duschbad/Shower Project - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/duschbad-dush</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/duschbad-dush"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/duschbad-dush"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Duschbad/Shower Project - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/duschbad-dush</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/duschbad-dush"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/duschbad-dush"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Schlafzimmer/Bedroom 1 - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/schlafzimmer-spalnya</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/schlafzimmer-spalnya"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/schlafzimmer-spalnya"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Schlafzimmer/Bedroom 1 - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/schlafzimmer-spalnya</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/schlafzimmer-spalnya"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/schlafzimmer-spalnya"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Schlafzimmer/Bedroom 2 - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/schlafzimmer-spalnya-2</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/schlafzimmer-spalnya-2"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/schlafzimmer-spalnya-2"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Schlafzimmer/Bedroom 2 - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/schlafzimmer-spalnya-2</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/schlafzimmer-spalnya-2"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/schlafzimmer-spalnya-2"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Arbeitszimmer/Office - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/arbeitszimmer-kabinet</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/arbeitszimmer-kabinet"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/arbeitszimmer-kabinet"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Arbeitszimmer/Office - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/arbeitszimmer-kabinet</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/arbeitszimmer-kabinet"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/arbeitszimmer-kabinet"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Impressum - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/impressum</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/impressum"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/impressum"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Impressum - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/impressum</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/impressum"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/impressum"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Datenschutz - German -->
+  <url>
+    <loc>https://ekaterina-aust.de/de/datenschutz</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/datenschutz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/datenschutz"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Datenschutz - Russian -->
+  <url>
+    <loc>https://ekaterina-aust.de/ru/datenschutz</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ekaterina-aust.de/de/datenschutz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ekaterina-aust.de/ru/datenschutz"/>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

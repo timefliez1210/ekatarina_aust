@@ -24,7 +24,7 @@
     flex: 1;
     aspect-ratio: 1/1;
     overflow: hidden;
-    background-color: var(--color-bg-alt);
+    background-color: #ffffff;
 }
 
 .renderImage img {
