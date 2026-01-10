@@ -136,6 +136,7 @@
         "lastName": "Nachname",
         "email": "E-Mail",
         "phone": "Telefon",
+        "message": "Nachricht",
         "submit": "BERATUNG ANFORDERN",
         "cta": "Ich freue mich, Ihr Projekt zu besprechen und alle Ihre Fragen zu beantworten! Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf einem der unten angegebenen Wege.",
         "phoneLabel": "Telefon:",

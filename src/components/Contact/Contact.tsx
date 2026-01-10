@@ -12,12 +12,13 @@ export default function Contact() {
         firstName: '',
         lastName: '',
         email: '',
-        phone: ''
+        phone: '',
+        message: ''
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
@@ -41,7 +42,7 @@ export default function Contact() {
 
             if (response.ok) {
                 setSubmitStatus('success');
-                setFormData({ firstName: '', lastName: '', email: '', phone: '' });
+                setFormData({ firstName: '', lastName: '', email: '', phone: '', message: '' });
             } else {
                 setSubmitStatus('error');
             }
@@ -113,33 +114,49 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className={styles.formGroup}>
-                            <label htmlFor="email" className={styles.label}>
-                                {t('email')} *
-                            </label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                className={styles.input}
-                                value={formData.email}
-                                onChange={handleChange}
-                                required
-                            />
+                        <div className={styles.formRow}>
+                            <div className={styles.formGroup}>
+                                <label htmlFor="email" className={styles.label}>
+                                    {t('email')} *
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    className={styles.input}
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    required
+                                />
+                            </div>
+
+                            <div className={styles.formGroup}>
+                                <label htmlFor="phone" className={styles.label}>
+                                    {t('phone')} *
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    className={styles.input}
+                                    value={formData.phone}
+                                    onChange={handleChange}
+                                    required
+                                />
+                            </div>
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label htmlFor="phone" className={styles.label}>
-                                {t('phone')} *
+                            <label htmlFor="message" className={styles.label}>
+                                {t('message')}
                             </label>
-                            <input
-                                type="tel"
-                                id="phone"
-                                name="phone"
-                                className={styles.input}
-                                value={formData.phone}
+                            <textarea
+                                id="message"
+                                name="message"
+                                className={styles.textarea}
+                                value={formData.message}
                                 onChange={handleChange}
-                                required
+                                rows={4}
                             />
                         </div>
 
