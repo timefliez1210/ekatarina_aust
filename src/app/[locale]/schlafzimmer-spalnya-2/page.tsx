@@ -69,6 +69,7 @@ export default async function Bedroom2Page({
                 highlightText={t.highlightText}
                 description={t.description}
                 mainImage="/images/Schlafzimmer-Design-2-link-titel.jpg"
+                imageAlt={locale === 'de' ? 'Dunkles Schlafzimmer Design - Ekaterina Aust Raumgestaltung Hildesheim' : 'Темный дизайн спальни - Екатерина Ауст'}
             />
 
             <Divider />

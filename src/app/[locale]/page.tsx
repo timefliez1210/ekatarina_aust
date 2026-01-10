@@ -14,8 +14,52 @@ export default async function HomePage({
     const { locale } = await params;
     setRequestLocale(locale);
 
+    // JSON-LD Structured Data for LocalBusiness
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        '@id': 'https://ekaterina-aust.de',
+        name: 'Ekaterina Aust - Innenarchitektur',
+        alternateName: 'Logica Innenarchitektur',
+        description: locale === 'de'
+            ? 'Professionelle Innenarchitektin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design.'
+            : 'Профессиональный дизайнер интерьеров. Индивидуальные проекты спален, ванных комнат, кабинетов.',
+        url: 'https://ekaterina-aust.de',
+        telephone: '+49 160 2332135',
+        email: 'aust.ekaterina@gmail.com',
+        address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Hildesheim',
+            addressCountry: 'DE'
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 52.1547,
+            longitude: 9.9518
+        },
+        areaServed: ['Hildesheim', 'Hannover', 'Braunschweig', 'Niedersachsen', 'Deutschland', 'Russland'],
+        priceRange: '$$',
+        image: 'https://ekaterina-aust.de/images/logica_innenarchitektur.jpg',
+        sameAs: [],
+        openingHoursSpecification: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: '09:00',
+            closes: '18:00'
+        },
+        founder: {
+            '@type': 'Person',
+            name: 'Ekaterina Aust',
+            jobTitle: locale === 'de' ? 'Innenarchitektin' : 'Дизайнер интерьеров'
+        }
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <Hero />
             <Divider />
             <About />
@@ -27,3 +71,4 @@ export default async function HomePage({
         </>
     );
 }
+

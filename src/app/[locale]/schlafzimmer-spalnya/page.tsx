@@ -73,6 +73,7 @@ export default async function BedroomMosaikPage({
                 highlightLinkText={t.highlightLinkText}
                 description={t.description}
                 mainImage="/images/Schlafzimmer-Design-1-titel.jpg"
+                imageAlt={locale === 'de' ? 'Schlafzimmer Design Hildesheim - Ekaterina Aust Innenarchitektur' : 'Дизайн спальни - Екатерина Ауст'}
             />
 
             <Divider />

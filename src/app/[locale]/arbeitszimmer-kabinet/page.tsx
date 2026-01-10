@@ -69,6 +69,7 @@ export default async function OfficePage({
                 highlightText={t.highlightText}
                 description={t.description}
                 mainImage="/images/Arbeitszimmer-Design-Titel.jpg"
+                imageAlt={locale === 'de' ? 'Arbeitszimmer Design - Ekaterina Aust Home Office Gestaltung Hildesheim' : 'Дизайн кабинета - Екатерина Ауст'}
             />
 
             <Divider />

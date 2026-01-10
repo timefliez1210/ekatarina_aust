@@ -73,6 +73,7 @@ export default async function BathroomDesignPage({
                 highlightLinkText={t.highlightLinkText}
                 description={t.description}
                 mainImage="/images/Dusche-Design-Titel.jpg"
+                imageAlt={locale === 'de' ? 'Modernes Badezimmer Design Hildesheim - Ekaterina Aust Innenarchitektur' : 'Современный дизайн ванной комнаты - Екатерина Ауст'}
             />
 
             <Divider />

@@ -10,6 +10,7 @@ interface ProjectHeroProps {
     highlightLink?: string;
     highlightLinkText?: string;
     mainImage: string;
+    imageAlt?: string;
     thumbnails?: string[];
 }
 
@@ -21,6 +22,7 @@ export default function ProjectHero({
     highlightLink,
     highlightLinkText,
     mainImage,
+    imageAlt,
     thumbnails = []
 }: ProjectHeroProps) {
     return (
@@ -29,7 +31,7 @@ export default function ProjectHero({
                 <div className={styles.imageContainer}>
                     <Image
                         src={mainImage}
-                        alt={title}
+                        alt={imageAlt || title}
                         fill
                         className={styles.image}
                         priority
