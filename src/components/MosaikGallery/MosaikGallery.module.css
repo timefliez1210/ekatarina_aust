@@ -60,6 +60,7 @@
 }
 
 .text {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     color: var(--color-text);
@@ -67,7 +68,7 @@
 }
 
 .italicText {
-    font-style: italic;
+    font-style: normal;
     margin-top: var(--spacing-lg);
 }
 

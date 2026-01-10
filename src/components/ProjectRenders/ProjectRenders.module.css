@@ -28,10 +28,11 @@
 }
 
 .renderImage img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .text {
+    font-family: var(--font-body);
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
     text-align: center;

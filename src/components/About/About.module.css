@@ -9,6 +9,7 @@
 }
 
 .title {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-medium);
     margin-bottom: var(--spacing-lg);
@@ -42,6 +43,7 @@
 }
 
 .paragraph {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     color: var(--color-text);
@@ -52,6 +54,7 @@
 }
 
 .howIWorkTitle {
+    font-family: var(--font-heading);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
     margin-bottom: var(--spacing-md);
@@ -78,9 +81,16 @@
 }
 
 .conclusion {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     margin-top: var(--spacing-lg);
+}
+
+.contactLink {
+    color: var(--color-primary);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media (max-width: 968px) {
@@ -91,6 +101,7 @@
 
     .imageContainer {
         max-width: 400px;
+        margin: 0 auto;
     }
 }
 

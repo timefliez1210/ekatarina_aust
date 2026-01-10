@@ -93,8 +93,8 @@ export default async function Bedroom2Page({
 
             <ProjectRenders
                 images={[
-                    "/images/Schlafzimmer-Design-3d-render-links.jpg",
-                    "/images/Schlafzimmer-Design-3d-render-rechts.jpg"
+                    "/images/schlafzimmer-grau-links.jpg",
+                    "/images/schlafzimmer-grau-rechts.jpg"
                 ]}
                 text={t.rendersText}
             />

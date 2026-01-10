@@ -20,6 +20,7 @@
 }
 
 .title {
+    font-family: var(--font-heading);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
     margin-bottom: var(--spacing-xl);
@@ -44,11 +45,13 @@
 }
 
 .label {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
 }
 
 .input {
+    font-family: var(--font-body);
     padding: var(--spacing-sm) var(--spacing-md);
     border: 1px solid var(--color-border);
     background-color: var(--color-bg);
@@ -61,6 +64,7 @@
 }
 
 .submitButton {
+    font-family: var(--font-heading);
     align-self: flex-start;
     padding: var(--spacing-md) var(--spacing-xl);
     background-color: var(--color-button);
@@ -86,6 +90,7 @@
 }
 
 .ctaText {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
 }
@@ -103,11 +108,13 @@
 }
 
 .infoLabel {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
 }
 
 .infoValue {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     color: var(--color-text);
 }
@@ -119,6 +126,7 @@
 }
 
 .impressumLink {
+    font-family: var(--font-heading);
     font-size: var(--font-size-sm);
     color: var(--color-text-muted);
     margin-top: var(--spacing-lg);

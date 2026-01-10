@@ -1,9 +1,25 @@
+'use client';
+
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import styles from './About.module.css';
 
 export default function About() {
     const t = useTranslations('about');
+
+    const scrollToContact = () => {
+        const element = document.getElementById('contact');
+        if (element) {
+            const headerOffset = 60;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
 
     return (
         <section id="about" className={styles.about}>
@@ -32,7 +48,7 @@ export default function About() {
                         </p>
 
                         <div className={styles.howIWork}>
-                            <h3 className={styles.howIWorkTitle}>{t('howIWork')}</h3>
+                            <h2 className={styles.howIWorkTitle}>{t('howIWork')}</h2>
                             <ul className={styles.workList}>
                                 <li className={styles.workItem}>{t('workPoint1')}</li>
                                 <li className={styles.workItem}>{t('workPoint2')}</li>
@@ -49,7 +65,15 @@ export default function About() {
                         </p>
 
                         <p className={styles.paragraph}>
-                            {t('cta')}
+                            {t('ctaPrefix')}
+                            <button
+                                type="button"
+                                className={styles.contactLink}
+                                onClick={scrollToContact}
+                            >
+                                {t('ctaLink')}
+                            </button>
+                            {t('ctaSuffix')}
                         </p>
                     </div>
                 </div>
@@ -57,3 +81,4 @@ export default function About() {
         </section>
     );
 }
+

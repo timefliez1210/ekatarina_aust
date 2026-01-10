@@ -9,6 +9,7 @@
 }
 
 .title {
+    font-family: var(--font-heading);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
     text-align: center;
@@ -54,6 +55,7 @@
 }
 
 .projectLabel {
+    font-family: var(--font-heading);
     font-size: var(--font-size-base);
     color: var(--color-text);
     text-align: center;

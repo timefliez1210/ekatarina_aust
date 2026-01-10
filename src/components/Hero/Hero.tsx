@@ -42,7 +42,7 @@ export default function Hero() {
                         priority
                     />
                 </div>
-                <p className={styles.tagline}>{t('tagline')}</p>
+                <h1 className={styles.tagline}>{t('tagline')}</h1>
             </div>
 
             <nav className={styles.heroNav}>

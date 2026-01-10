@@ -38,6 +38,7 @@
 }
 
 .title {
+    font-family: var(--font-heading);
     font-size: var(--font-size-2xl);
     font-weight: var(--font-weight-medium);
     color: var(--color-text);
@@ -47,6 +48,7 @@
 }
 
 .subtitle {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-normal);
     color: var(--color-text);
@@ -55,6 +57,7 @@
 }
 
 .description {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     color: var(--color-text);

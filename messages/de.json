@@ -22,7 +22,10 @@
         "workPoint3": "Ich biete den kompletten Service: vom Konzept bis zur Bauüberwachung",
         "workConclusion": "Ich jage nicht nach Zahlen und Jahren in meinem Beruf, denn die beste Empfehlung für einen Spezialisten ist seine Arbeit. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich der beste Qualitätsindikator.",
         "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert vor allem auf dem Vertrauen der Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
-        "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
+        "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!",
+        "ctaPrefix": "Bereit, Ihr Projekt zu besprechen? ",
+        "ctaLink": "Kontaktieren Sie mich",
+        "ctaSuffix": ", und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
     },
     "projects": {
         "title": "Projekte",

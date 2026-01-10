@@ -10,6 +10,7 @@
 }
 
 .title {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-medium);
     text-align: center;
@@ -17,6 +18,7 @@
 }
 
 .intro {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     text-align: center;
@@ -35,6 +37,7 @@
 }
 
 .tabButton {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.05em;
@@ -70,6 +73,7 @@
 }
 
 .question {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     margin-bottom: var(--spacing-lg);
@@ -77,6 +81,7 @@
 }
 
 .duration {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-normal);
     margin-bottom: var(--spacing-md);
@@ -90,11 +95,13 @@
 }
 
 .point {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
 }
 
 .durationInfo {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     color: var(--color-text);
 }
@@ -104,6 +111,7 @@
 }
 
 .serviceDescription {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
 }
@@ -115,21 +123,24 @@
 }
 
 .tagline {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
-    font-style: italic;
+    font-style: normal;
     color: var(--color-text);
     margin: var(--spacing-md) 0;
 }
 
 .sectionHeader {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-medium);
     margin: var(--spacing-lg) 0 var(--spacing-md);
 }
 
 .conclusion {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
-    font-style: italic;
+    font-style: normal;
     line-height: 1.8;
     margin-top: var(--spacing-lg);
     color: var(--color-text);
@@ -174,6 +185,7 @@
 }
 
 .dropdownContent p {
+    font-family: var(--font-body);
     font-size: var(--font-size-sm);
     line-height: 1.8;
     color: var(--color-text);

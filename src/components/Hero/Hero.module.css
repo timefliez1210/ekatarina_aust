@@ -32,12 +32,14 @@
 }
 
 .tagline {
+    font-family: var(--font-heading);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--color-text);
     margin-top: var(--spacing-md);
+    margin-bottom: 0;
 }
 
 /* Navigation at bottom of hero */
@@ -57,6 +59,7 @@
 }
 
 .heroNavLink {
+    font-family: var(--font-heading);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-normal);
     color: var(--color-text);
