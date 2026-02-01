@@ -1,153 +1,156 @@
 {
-    "meta": {
-        "title": "Ekaterina Aust | Innenarchitektur & Raumdesign in Hildesheim",
-        "description": "Professionelle Innenarchitektin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design. Persönliche Beratung für Ihr Trauminterieur in Deutschland.",
-        "ogTitle": "Ekaterina Aust - Innenarchitektur Hildesheim",
-        "ogDescription": "Kreatives Raumdesign und individuelle Innenarchitektur. Vom Konzept bis zur Realisierung - Ihr Partner für stilvolle Interieurs."
+  "meta": {
+    "title": "Ekaterina Aust | Innenarchitektur & Raumdesign in Hildesheim",
+    "description": "Professionelle Innenarchitektin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design. Persönliche Beratung für Ihr Trauminterieur in Deutschland.",
+    "ogTitle": "Ekaterina Aust - Innenarchitektur Hildesheim",
+    "ogDescription": "Kreatives Raumdesign und individuelle Innenarchitektur. Vom Konzept bis zur Realisierung - Ihr Partner für stilvolle Interieurs."
+  },
+  "nav": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "services": "Leistungen",
+    "contacts": "Kontakt"
+  },
+  "hero": {
+    "tagline": "INNENARCHITEKTUR"
+  },
+  "about": {
+    "title": "Über mich",
+    "intro": "Mein Name ist Ekaterina Aust, und ich bin Innenarchitektin, für die dieser Beruf schon immer mehr als nur ein Job war. Seit meiner Schulzeit wusste ich, dass ich Räume schaffen möchte, in denen sich Menschen wohlfühlen – zum Leben, Arbeiten und Entspannen. Nach dem Abschluss der Kunstschule, der Kunstfachschule und meinem Hochschulstudium in diesem Bereich habe ich meinen Traum verwirklicht. Seit einigen Jahren lebe ich in Deutschland und entwerfe mit der Leichtigkeit, mit der ich noch nicht Deutsch spreche.",
+    "paragraph2": "In meiner Arbeit halte ich mich nicht an einen bestimmten Stil – mir ist es wichtig, dass das Interieur die Persönlichkeit des Auftraggebers widerspiegelt und nicht meine eigenen Vorlieben. Das Wichtigste ist, dass der Raum funktional, komfortabel und logisch organisiert ist. Auf einer soliden Grundlage wird dann die Stilistik aufgebaut, um ein harmonisches Interieur zu schaffen. Ich bin überzeugt, dass Kunden, die sich an einen Designer wenden, nicht nur nach einer Renovierung suchen, sondern nach einer Idee und einem Konzept, die ihr Zuhause besonders machen.",
+    "howIWork": "Wie arbeite ich?",
+    "workPoint1": "Ich erstelle individuelle Projekte, die auf den Lebensstil und die Wünsche des Kunden abgestimmt sind",
+    "workPoint2": "Ich höre zu, schlage Lösungen vor und finde die Balance zwischen Wünschen und Möglichkeiten",
+    "workPoint3": "Ich biete den kompletten Service: vom Konzept bis zur Bauüberwachung",
+    "workConclusion": "Ich jage nicht nach Zahlen und Jahren in meinem Beruf, denn die beste Empfehlung für einen Spezialisten ist seine Arbeit. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich der beste Qualitätsindikator.",
+    "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert vor allem auf dem Vertrauen der Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
+    "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!",
+    "ctaPrefix": "Bereit, Ihr Projekt zu besprechen? ",
+    "ctaLink": "Kontaktieren Sie mich",
+    "ctaSuffix": ", und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
+  },
+  "projects": {
+    "title": "Projekte",
+    "shower": "Badezimmer",
+    "bedroom": "Schlafzimmer",
+    "office": "Büro"
+  },
+  "services": {
+    "title": "Leistungen",
+    "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen können oder nur die Etappe, die Sie benötigen! Sei es die Raumplanung, Unterstützung beim Einkauf oder die Kontrolle der Auftragnehmer. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
+    "tabs": {
+      "consultation": "BERATUNG",
+      "project": "PROJEKT",
+      "estimate": "KOSTENVORANSCHLAG",
+      "complete": "AUSSTATTUNG",
+      "supervision": "BAUÜBERWACHUNG"
     },
-    "nav": {
-        "about": "Über mich",
-        "projects": "Projekte",
-        "services": "Leistungen",
-        "contacts": "Kontakt"
+    "consultation": {
+      "question": "Planen Sie den Kauf einer Wohnung oder eines Hauses? Ich helfe Ihnen, den Grundriss zu bewerten, den Raum zu optimieren und mögliche Änderungen aus der Perspektive der Innenarchitektur zu prüfen.",
+      "duration": "In 1,5 Stunden erhalten Sie:",
+      "point1": "Professionelle Analyse des Objekts",
+      "point2": "Varianten möglicher Umgestaltungen",
+      "point3": "Empfehlungen für das zukünftige Interieur",
+      "durationLabel": "Dauer:",
+      "durationValue": "1,5 Stunden"
     },
-    "hero": {
-        "tagline": "INNENARCHITEKTUR"
-    },
-    "about": {
-        "title": "Über mich",
-        "intro": "Mein Name ist Ekaterina Aust, und ich bin Innenarchitektin, für die dieser Beruf schon immer mehr als nur ein Job war. Seit meiner Schulzeit wusste ich, dass ich Räume schaffen möchte, in denen sich Menschen wohlfühlen – zum Leben, Arbeiten und Entspannen. Nach dem Abschluss der Kunstschule, der Kunstfachschule und meinem Hochschulstudium in diesem Bereich habe ich meinen Traum verwirklicht. Seit einigen Jahren lebe ich in Deutschland und entwerfe mit der Leichtigkeit, mit der ich noch nicht Deutsch spreche.",
-        "paragraph2": "In meiner Arbeit halte ich mich nicht an einen bestimmten Stil – mir ist es wichtig, dass das Interieur die Persönlichkeit des Auftraggebers widerspiegelt und nicht meine eigenen Vorlieben. Das Wichtigste ist, dass der Raum funktional, komfortabel und logisch organisiert ist. Auf einer soliden Grundlage wird dann die Stilistik aufgebaut, um ein harmonisches Interieur zu schaffen. Ich bin überzeugt, dass Kunden, die sich an einen Designer wenden, nicht nur nach einer Renovierung suchen, sondern nach einer Idee und einem Konzept, die ihr Zuhause besonders machen.",
-        "howIWork": "Wie arbeite ich?",
-        "workPoint1": "Ich erstelle individuelle Projekte, die auf den Lebensstil und die Wünsche des Kunden abgestimmt sind",
-        "workPoint2": "Ich höre zu, schlage Lösungen vor und finde die Balance zwischen Wünschen und Möglichkeiten",
-        "workPoint3": "Ich biete den kompletten Service: vom Konzept bis zur Bauüberwachung",
-        "workConclusion": "Ich jage nicht nach Zahlen und Jahren in meinem Beruf, denn die beste Empfehlung für einen Spezialisten ist seine Arbeit. Kunden danken mir für Professionalität, Geduld und Liebe zum Detail – und das ist für mich der beste Qualitätsindikator.",
-        "uniqueApproach": "Jedes Projekt ist für mich etwas Besonderes, denn es basiert vor allem auf dem Vertrauen der Kunden. Und das ist der wertvollste Teil meiner Arbeit.",
-        "cta": "Bereit, Ihr Projekt zu besprechen? Kontaktieren Sie mich, und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!",
-        "ctaPrefix": "Bereit, Ihr Projekt zu besprechen? ",
-        "ctaLink": "Kontaktieren Sie mich",
-        "ctaSuffix": ", und gemeinsam schaffen wir ein Interieur, in dem Sie sich wirklich wohlfühlen!"
-    },
-    "projects": {
-        "title": "Projekte",
-        "shower": "Badezimmer",
-        "bedroom": "Schlafzimmer",
-        "office": "Büro"
-    },
-    "services": {
-        "title": "Leistungen",
-        "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen können oder nur die Etappe, die Sie benötigen! Sei es die Raumplanung, Unterstützung beim Einkauf oder die Kontrolle der Auftragnehmer. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
-        "tabs": {
-            "consultation": "BERATUNG",
-            "project": "PROJEKT",
-            "estimate": "KOSTENVORANSCHLAG",
-            "complete": "AUSSTATTUNG",
-            "supervision": "BAUÜBERWACHUNG"
+    "project": {
+      "title": "Innenarchitektur – als persönliche Geschichte!",
+      "description": "In meiner Arbeit bin ich überzeugt: Es ist nicht nur wichtig, ein schönes Interieur zu schaffen, sondern auch den Prozess transparent und verständlich zu machen. Ich erkläre detailliert die Phasen der Arbeit am Designprojekt und beziehe Sie in Entscheidungen ein – damit das zukünftige Interieur genau Ihren Stil und Lebensstil widerspiegelt.",
+      "tagline": "Design beginnt mit Vertrauen. Und mit dem ersten Gespräch.",
+      "durationLabel": "Dauer:",
+      "durationValue": "4 Monate",
+      "dropdowns": {
+        "contract": {
+          "title": "VERTRAG FÜR RAUMPLANUNG",
+          "text": "Bei einem persönlichen Treffen oder online besprechen wir die wichtigsten Projektparameter: Ihre Wünsche an das Interieur, Budget, Fristen, stilistische Orientierung und Referenzen."
         },
-        "consultation": {
-            "question": "Planen Sie den Kauf einer Wohnung oder eines Hauses? Ich helfe Ihnen, den Grundriss zu bewerten, den Raum zu optimieren und mögliche Änderungen aus der Perspektive der Innenarchitektur zu prüfen.",
-            "duration": "In 1,5 Stunden erhalten Sie:",
-            "point1": "Professionelle Analyse des Objekts",
-            "point2": "Varianten möglicher Umgestaltungen",
-            "point3": "Empfehlungen für das zukünftige Interieur",
-            "durationLabel": "Dauer:",
-            "durationValue": "1,5 Stunden"
+        "measurement": {
+          "title": "AUFMASS UND BRIEFING-GESPRÄCH",
+          "text": "Nach Vertragsunterzeichnung erfolgt ein professionelles Aufmaß der Räumlichkeiten mittels präziser 3D-Vermessung – dies garantiert die Berücksichtigung aller Besonderheiten des Raumes und eine hohe Qualität des zukünftigen Projekts. Gemeinsam besprechen wir Ihre Wünsche und wählen einen Einrichtungsstil, der ideal zu Ihrem Lebensstil passt. Wir stimmen das Projektbudget ab, damit das Innendesign komfortabel und realistisch umsetzbar ist."
         },
-        "project": {
-            "title": "Innenarchitektur – als persönliche Geschichte!",
-            "description": "In meiner Arbeit bin ich überzeugt: Es ist nicht nur wichtig, ein schönes Interieur zu schaffen, sondern auch den Prozess transparent und verständlich zu machen. Ich erkläre detailliert die Phasen der Arbeit am Designprojekt und beziehe Sie in Entscheidungen ein – damit das zukünftige Interieur genau Ihren Stil und Lebensstil widerspiegelt.",
-            "tagline": "Design beginnt mit Vertrauen. Und mit dem ersten Gespräch.",
-            "durationLabel": "Dauer:",
-            "durationValue": "4 Monate",
-            "dropdowns": {
-                "contract": {
-                    "title": "VERTRAG FÜR RAUMPLANUNG",
-                    "text": "Bei einem persönlichen Treffen oder online besprechen wir die wichtigsten Projektparameter: Ihre Wünsche an das Interieur, Budget, Fristen, stilistische Orientierung und Referenzen."
-                },
-                "measurement": {
-                    "title": "AUFMASS UND BRIEFING-GESPRÄCH",
-                    "text": "Nach Vertragsunterzeichnung erfolgt ein professionelles Aufmaß der Räumlichkeiten mittels präziser 3D-Vermessung – dies garantiert die Berücksichtigung aller Besonderheiten des Raumes und eine hohe Qualität des zukünftigen Projekts. Gemeinsam besprechen wir Ihre Wünsche und wählen einen Einrichtungsstil, der ideal zu Ihrem Lebensstil passt. Wir stimmen das Projektbudget ab, damit das Innendesign komfortabel und realistisch umsetzbar ist."
-                },
-                "layout": {
-                    "title": "PLANUNGSLÖSUNG",
-                    "text": "Ich entwickle mehrere Planungsvarianten unter Berücksichtigung der Besonderheiten Ihres Hauses und Ihrer persönlichen Vorlieben. Für mich ist es wichtig, nicht einfach nur ein Interieur zu gestalten, sondern einen bequemen und funktionalen Raum zu schaffen. Gemeinsam besprechen wir jede Variante, wählen aus oder kombinieren Ideen, um die optimale Planungslösung zu finden."
-                },
-                "concept": {
-                    "title": "KONZEPT",
-                    "text": "Ich erstelle ein Interieur-Konzept in Form von 2D-Collagen der Haupträume. In dieser Phase können Sie die grundlegende Idee, die Stilistik der Räume, die Hauptfarben und Materialien sehen. Dies hilft, eine klare Vorstellung vom zukünftigen Raum und seiner Atmosphäre zu bekommen."
-                },
-                "visualization": {
-                    "title": "3D-VISUALISIERUNG",
-                    "text": "In dieser Phase sehen Sie fotorealistische Bilder Ihres Raumes – mit präziser Darstellung von Licht, Texturen und Möbeldetails. Visualisierungen ermöglichen es Ihnen, Volumen, Maßstab und Atmosphäre jedes Winkels Ihres Hauses zu spüren."
-                },
-                "technical": {
-                    "title": "UMSETZUNGSPLÄNE UND DETAILLIERUNG",
-                    "text": "Ich erstelle eine detaillierte technische Beschreibung des Interieurs, einschließlich der Entwicklung von Plänen für Möbel, Ausbau und Einbauelemente unter Berücksichtigung aller Nuancen. Sie erhalten einen vollständigen Satz von Plänen, Wandabwicklungen, Schnitten und Zeichnungen für Maßmöbel. Die genaue Angabe der Positionierung von Elektrik, Beleuchtung, Sanitär, Ausbaumaterialien und Bodenbelägen ermöglicht eine fehlerfreie und verzögerungsfreie Renovierung. Jedes Element des Interieurs entspricht den zuvor abgestimmten Visualisierungen, was die Arbeit für Auftragnehmer und Möbelhersteller erleichtert."
-                },
-                "materials": {
-                    "title": "MATERIALAUFSTELLUNG",
-                    "text": "Eine Liste mit genauen Bezeichnungen, Mengen, Farben und technischen Merkmalen jedes Elements – von Bodenbelägen und Wandverkleidungen bis hin zu Beleuchtung und Wohnaccessoires. Die Materialaufstellung hilft Ihnen, Fehler und unnötige Kosten zu vermeiden, genau zu verstehen, was und in welcher Menge gekauft werden muss, sowie eine qualitativ hochwertige Umsetzung Ihres Interieurs zu gewährleisten."
-                }
-            }
+        "layout": {
+          "title": "PLANUNGSLÖSUNG",
+          "text": "Ich entwickle mehrere Planungsvarianten unter Berücksichtigung der Besonderheiten Ihres Hauses und Ihrer persönlichen Vorlieben. Für mich ist es wichtig, nicht einfach nur ein Interieur zu gestalten, sondern einen bequemen und funktionalen Raum zu schaffen. Gemeinsam besprechen wir jede Variante, wählen aus oder kombinieren Ideen, um die optimale Planungslösung zu finden."
         },
-        "estimate": {
-            "title": "Kostenvoranschlag",
-            "intro": "Der Kostenvoranschlag ist eine zusätzliche Dienstleistung, bei der ich alle Elemente des zukünftigen Interieurs mit echten Artikelnummern, Marken, Farben und Preisen von konkreten Lieferanten auswähle. So können Sie noch vor Beginn der Renovierung die tatsächlichen Kosten der Umsetzung einschätzen.",
-            "durationLabel": "Zeitrahmen:",
-            "durationValue": "1,5 Monate",
-            "whatYouGet": "Sie erhalten:",
-            "point1": "eine detaillierte Tabelle mit allen Positionen: Veredelung, Möbel, Sanitär, Beleuchtung, Textilien und Dekoration",
-            "point2": "Angabe von Artikelnummern, Herstellern, Lieferanten und Mengen",
-            "point3": "Vergleich von Angeboten und Lieferbedingungen verschiedener Hersteller",
-            "point4": "die Möglichkeit, im Voraus zu verstehen, welches Budget benötigt wird und wo es ohne Qualitätsverlust angepasst werden kann",
-            "whyNeeded": "Warum braucht man einen Kostenvoranschlag?",
-            "whyText": "Der Kostenvoranschlag hilft, unerwartete Ausgaben zu vermeiden, Einkäufe genau zu planen und das Interieur im Rahmen des Budgets umzusetzen. Besonders relevant für diejenigen, die die Ausgaben kontrollieren, schrittweise einkaufen oder die Finanzen im Voraus verteilen möchten."
+        "concept": {
+          "title": "KONZEPT",
+          "text": "Ich erstelle ein Interieur-Konzept in Form von 2D-Collagen der Haupträume. In dieser Phase können Sie die grundlegende Idee, die Stilistik der Räume, die Hauptfarben und Materialien sehen. Dies hilft, eine klare Vorstellung vom zukünftigen Raum und seiner Atmosphäre zu bekommen."
         },
-        "complete": {
-            "title": "Ausstattung",
-            "intro": "Die Ausstattung ist eine Dienstleistung, bei der ich die Organisation der Beschaffung aller im Projekt genehmigten Materialien, Möbel, Sanitäranlagen, Beleuchtung und Dekoration übernehme. Sie werden von der Kommunikation mit Dutzenden von Lieferanten und der Logistikkontrolle befreit – ich begleite den Prozess von der Auswahl bis zur Lieferung und Montage vor Ort.",
-            "durationLabel": "Zeitrahmen:",
-            "durationValue": "Projektumsetzungsphase",
-            "whatIncluded": "Was ist in der Dienstleistung enthalten:",
-            "point1": "Anfrage und Vergleich von Angeboten von Lieferanten für alle Positionen aus dem Projekt",
-            "point2": "Abstimmung von Mustern und Auswahl von Alternativen, wenn benötigte Positionen nicht mehr produziert werden",
-            "point3": "Planung und Kontrolle der Liefertermine, damit die Baustelle nicht stillsteht",
-            "point4": "Organisation von Besuchen in Salons und Showrooms zur Auswahl von Möbeln, Veredelung und Textilien",
-            "point5": "Auftragsabwicklung, Zahlungskontrolle, Logistik und Warenannahme vor Ort im Namen des Kunden",
-            "point6": "Fotodokumentation und Überprüfung der Übereinstimmung von Lieferungen mit Projekt und Kostenvoranschlag",
-            "conclusion": "Diese Dienstleistung ist besonders wichtig in der Projektumsetzungsphase – sie garantiert, dass das Interieur genau so umgesetzt wird, wie es geplant war."
+        "visualization": {
+          "title": "3D-VISUALISIERUNG",
+          "text": "In dieser Phase sehen Sie fotorealistische Bilder Ihres Raumes – mit präziser Darstellung von Licht, Texturen und Möbeldetails. Visualisierungen ermöglichen es Ihnen, Volumen, Maßstab und Atmosphäre jedes Winkels Ihres Hauses zu spüren."
         },
-        "supervision": {
-            "title": "Bauüberwachung",
-            "intro": "Die Bauüberwachung ist die Begleitung der Renovierung in allen Phasen. Ich kontrolliere persönlich, dass die Bauarbeiter das Interieur gemäß den genehmigten Umsetzungsplänen und Visualisierungen umsetzen.",
-            "durationLabel": "Zeitrahmen:",
-            "durationValue": "Projektumsetzungsphase",
-            "whatIncluded": "Was ist in der Dienstleistung enthalten:",
-            "point1": "geplante Besuche vor Ort einmal pro Woche",
-            "point2": "Kommunikation mit Auftragnehmern und Bauarbeitern, Beantwortung aller aufkommenden Fragen",
-            "point3": "Überprüfung der Übereinstimmung mit Umsetzungsplänen und Visualisierungen",
-            "point4": "Präzisierung und Änderungen an Umsetzungsplänen bei Bedarf",
-            "point5": "Kontrolle von Veredelung, Farben und Materialien, komplexen Knotenpunkten und Details",
-            "point6": "Führung von Fotoberichten und Kommentaren im Chat mit dem Kunden"
+        "technical": {
+          "title": "UMSETZUNGSPLÄNE UND DETAILLIERUNG",
+          "text": "Ich erstelle eine detaillierte technische Beschreibung des Interieurs, einschließlich der Entwicklung von Plänen für Möbel, Ausbau und Einbauelemente unter Berücksichtigung aller Nuancen. Sie erhalten einen vollständigen Satz von Plänen, Wandabwicklungen, Schnitten und Zeichnungen für Maßmöbel. Die genaue Angabe der Positionierung von Elektrik, Beleuchtung, Sanitär, Ausbaumaterialien und Bodenbelägen ermöglicht eine fehlerfreie und verzögerungsfreie Renovierung. Jedes Element des Interieurs entspricht den zuvor abgestimmten Visualisierungen, was die Arbeit für Auftragnehmer und Möbelhersteller erleichtert."
+        },
+        "materials": {
+          "title": "MATERIALAUFSTELLUNG",
+          "text": "Eine Liste mit genauen Bezeichnungen, Mengen, Farben und technischen Merkmalen jedes Elements – von Bodenbelägen und Wandverkleidungen bis hin zu Beleuchtung und Wohnaccessoires. Die Materialaufstellung hilft Ihnen, Fehler und unnötige Kosten zu vermeiden, genau zu verstehen, was und in welcher Menge gekauft werden muss, sowie eine qualitativ hochwertige Umsetzung Ihres Interieurs zu gewährleisten."
         }
+      }
     },
-    "contact": {
-        "title": "Stellen Sie sich bitte vor",
-        "firstName": "Vorname",
-        "lastName": "Nachname",
-        "email": "E-Mail",
-        "phone": "Telefon",
-        "message": "Nachricht",
-        "submit": "BERATUNG ANFORDERN",
-        "cta": "Ich freue mich, Ihr Projekt zu besprechen und alle Ihre Fragen zu beantworten! Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf einem der unten angegebenen Wege.",
-        "phoneLabel": "Telefon:",
-        "phoneDE": "+49 160 2332135",
-        "phoneRU": "+7 915 293 63 69",
-        "emailLabel": "E-Mail:",
-        "emailAddress": "aust.ekaterina@gmail.com"
+    "estimate": {
+      "title": "Kostenvoranschlag",
+      "intro": "Der Kostenvoranschlag ist eine zusätzliche Dienstleistung, bei der ich alle Elemente des zukünftigen Interieurs mit echten Artikelnummern, Marken, Farben und Preisen von konkreten Lieferanten auswähle. So können Sie noch vor Beginn der Renovierung die tatsächlichen Kosten der Umsetzung einschätzen.",
+      "durationLabel": "Zeitrahmen:",
+      "durationValue": "1,5 Monate",
+      "whatYouGet": "Sie erhalten:",
+      "point1": "eine detaillierte Tabelle mit allen Positionen: Veredelung, Möbel, Sanitär, Beleuchtung, Textilien und Dekoration",
+      "point2": "Angabe von Artikelnummern, Herstellern, Lieferanten und Mengen",
+      "point3": "Vergleich von Angeboten und Lieferbedingungen verschiedener Hersteller",
+      "point4": "die Möglichkeit, im Voraus zu verstehen, welches Budget benötigt wird und wo es ohne Qualitätsverlust angepasst werden kann",
+      "whyNeeded": "Warum braucht man einen Kostenvoranschlag?",
+      "whyText": "Der Kostenvoranschlag hilft, unerwartete Ausgaben zu vermeiden, Einkäufe genau zu planen und das Interieur im Rahmen des Budgets umzusetzen. Besonders relevant für diejenigen, die die Ausgaben kontrollieren, schrittweise einkaufen oder die Finanzen im Voraus verteilen möchten."
     },
-    "footer": {
-        "impressum": "Impressum"
+    "complete": {
+      "title": "Ausstattung",
+      "intro": "Die Ausstattung ist eine Dienstleistung, bei der ich die Organisation der Beschaffung aller im Projekt genehmigten Materialien, Möbel, Sanitäranlagen, Beleuchtung und Dekoration übernehme. Sie werden von der Kommunikation mit Dutzenden von Lieferanten und der Logistikkontrolle befreit – ich begleite den Prozess von der Auswahl bis zur Lieferung und Montage vor Ort.",
+      "durationLabel": "Zeitrahmen:",
+      "durationValue": "Projektumsetzungsphase",
+      "whatIncluded": "Was ist in der Dienstleistung enthalten:",
+      "point1": "Anfrage und Vergleich von Angeboten von Lieferanten für alle Positionen aus dem Projekt",
+      "point2": "Abstimmung von Mustern und Auswahl von Alternativen, wenn benötigte Positionen nicht mehr produziert werden",
+      "point3": "Planung und Kontrolle der Liefertermine, damit die Baustelle nicht stillsteht",
+      "point4": "Organisation von Besuchen in Salons und Showrooms zur Auswahl von Möbeln, Veredelung und Textilien",
+      "point5": "Auftragsabwicklung, Zahlungskontrolle, Logistik und Warenannahme vor Ort im Namen des Kunden",
+      "point6": "Fotodokumentation und Überprüfung der Übereinstimmung von Lieferungen mit Projekt und Kostenvoranschlag",
+      "conclusion": "Diese Dienstleistung ist besonders wichtig in der Projektumsetzungsphase – sie garantiert, dass das Interieur genau so umgesetzt wird, wie es geplant war."
+    },
+    "supervision": {
+      "title": "Bauüberwachung",
+      "intro": "Die Bauüberwachung ist die Begleitung der Renovierung in allen Phasen. Ich kontrolliere persönlich, dass die Bauarbeiter das Interieur gemäß den genehmigten Umsetzungsplänen und Visualisierungen umsetzen.",
+      "durationLabel": "Zeitrahmen:",
+      "durationValue": "Projektumsetzungsphase",
+      "whatIncluded": "Was ist in der Dienstleistung enthalten:",
+      "point1": "geplante Besuche vor Ort einmal pro Woche",
+      "point2": "Kommunikation mit Auftragnehmern und Bauarbeitern, Beantwortung aller aufkommenden Fragen",
+      "point3": "Überprüfung der Übereinstimmung mit Umsetzungsplänen und Visualisierungen",
+      "point4": "Präzisierung und Änderungen an Umsetzungsplänen bei Bedarf",
+      "point5": "Kontrolle von Veredelung, Farben und Materialien, komplexen Knotenpunkten und Details",
+      "point6": "Führung von Fotoberichten und Kommentaren im Chat mit dem Kunden"
     }
+  },
+  "contact": {
+    "title": "Stellen Sie sich bitte vor",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "privacyConsentPrefix": "Ich habe die",
+    "privacyConsentLink": "Datenschutzerklärung",
+    "privacyConsentSuffix": "gelesen und stimme zu.",
+    "submit": "BERATUNG ANFORDERN",
+    "cta": "Ich freue mich, Ihr Projekt zu besprechen und alle Ihre Fragen zu beantworten! Füllen Sie einfach das Formular aus oder kontaktieren Sie mich auf einem der unten angegebenen Wege.",
+    "phoneLabel": "Telefon:",
+    "phoneDE": "+49 160 2332135",
+    "phoneRU": "+7 915 293 63 69",
+    "emailLabel": "E-Mail:",
+    "emailAddress": "aust.ekaterina@gmail.com"
+  },
+  "footer": {
+    "impressum": "Impressum"
+  }
 }

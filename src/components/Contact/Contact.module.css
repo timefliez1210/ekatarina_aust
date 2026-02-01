@@ -1,6 +1,6 @@
 .contact {
     padding: var(--spacing-4xl) 0;
-    background-color: #CBD5E1;
+    background-color: #cbd5e1;
 }
 
 .contactInner {
@@ -77,6 +77,37 @@
 
 .textarea:focus {
     border-color: var(--color-accent);
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+}
+
+.checkbox {
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--color-accent);
+}
+
+.checkboxLabel {
+    font-family: var(--font-body);
+    font-size: var(--font-size-xs);
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+.privacyLink {
+    color: var(--color-text);
+    text-decoration: underline;
+    transition: color var(--transition-fast);
+}
+
+.privacyLink:hover {
+    color: var(--color-accent);
 }
 
 .submitButton {
