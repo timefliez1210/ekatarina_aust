@@ -19,8 +19,8 @@ export default async function HomePage({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
         '@id': 'https://ekaterina-aust.de',
-        name: 'Ekaterina Aust - Innenarchitektur',
-        alternateName: 'Logica Innenarchitektur',
+        name: 'Ekaterina Aust - Interior Design',
+        alternateName: 'Logica Interior Design',
         description: locale === 'de'
             ? 'Professionelle Interior Designerin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design.'
             : 'Профессиональный дизайнер интерьера. Индивидуальные проекты спален, ванных комнат, кабинетов.',

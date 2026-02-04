@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         title: meta.title,
         description: meta.description,
         keywords: locale === 'de'
-            ? 'Innenarchitektur, Hildesheim, Raumdesign, Schlafzimmer Design, Badezimmer Design, Ekaterina Aust, Interior Design, Wohnraumgestaltung'
+            ? 'Interior Design, Hildesheim, Raumdesign, Schlafzimmer Design, Badezimmer Design, Ekaterina Aust, Wohnraumgestaltung'
             : 'дизайн интерьера, interior design, спальня дизайн, ванная комната, Екатерина Ауст, Германия',
         authors: [{ name: 'Ekaterina Aust' }],
         creator: 'Ekaterina Aust',
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
             url: `${baseUrl}/${locale}`,
             title: meta.ogTitle || meta.title,
             description: meta.ogDescription || meta.description,
-            siteName: 'Ekaterina Aust - Innenarchitektur',
+            siteName: 'Ekaterina Aust - Interior Design',
             images: [
                 {
                     url: `${baseUrl}/images/logica_innenarchitektur.jpg`,

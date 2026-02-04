@@ -35,7 +35,7 @@ export default function Hero() {
                 <div className={styles.logoCircle}>
                     <Image
                         src="/images/logica_innenarchitektur.jpg"
-                        alt="Ekaterina Aust Innenarchitektur Hildesheim - Logo"
+                        alt="Ekaterina Aust Interior Design Hildesheim - Logo"
                         width={200}
                         height={200}
                         className={styles.logoImage}

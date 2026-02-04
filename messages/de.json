@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Ekaterina Aust | Innenarchitektur & Raumdesign in Hildesheim",
+    "title": "Ekaterina Aust | Interior Design & Raumdesign in Hildesheim",
     "description": "Professionelle Interior Designerin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design. Persönliche Beratung für Ihr Trauminterieur in Deutschland.",
-    "ogTitle": "Ekaterina Aust - Innenarchitektur Hildesheim",
-    "ogDescription": "Kreatives Raumdesign und individuelle Innenarchitektur. Vom Konzept bis zur Realisierung - Ihr Partner für stilvolle Interieurs."
+    "ogTitle": "Ekaterina Aust - Interior Design Hildesheim",
+    "ogDescription": "Kreatives Raumdesign und individuelles Interior Design. Vom Konzept bis zur Realisierung - Ihr Partner für stilvolle Interieurs."
   },
   "nav": {
     "about": "Über mich",
@@ -12,7 +12,7 @@
     "contacts": "Kontakt"
   },
   "hero": {
-    "tagline": "INNENARCHITEKTUR"
+    "tagline": "INTERIOR DESIGN"
   },
   "about": {
     "title": "Über mich",
@@ -37,7 +37,7 @@
   },
   "services": {
     "title": "Leistungen",
-    "intro": "Innenarchitektur ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen können oder nur die Etappe, die Sie benötigen! Sei es die Raumplanung, Unterstützung beim Einkauf oder die Kontrolle der Auftragnehmer. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
+    "intro": "Interior Design ist nicht nur ein Projekt. Im Rahmen unserer Zusammenarbeit biete ich 5 eigenständige Dienstleistungen an, bei denen Sie das Komplettpaket wählen können oder nur die Etappe, die Sie benötigen! Sei es die Raumplanung, Unterstützung beim Einkauf oder die Kontrolle der Auftragnehmer. Ich arbeite mit Kunden in Deutschland, Russland und weltweit – online und offline.",
     "tabs": {
       "consultation": "BERATUNG",
       "project": "PROJEKT",
@@ -46,7 +46,7 @@
       "supervision": "BAUÜBERWACHUNG"
     },
     "consultation": {
-      "question": "Planen Sie den Kauf einer Wohnung oder eines Hauses? Ich helfe Ihnen, den Grundriss zu bewerten, den Raum zu optimieren und mögliche Änderungen aus der Perspektive der Innenarchitektur zu prüfen.",
+      "question": "Planen Sie den Kauf einer Wohnung oder eines Hauses? Ich helfe Ihnen, den Grundriss zu bewerten, den Raum zu optimieren und mögliche Änderungen aus der Perspektive des Interior Designs zu prüfen.",
       "duration": "In 1,5 Stunden erhalten Sie:",
       "point1": "Professionelle Analyse des Objekts",
       "point2": "Varianten möglicher Umgestaltungen",
@@ -55,7 +55,7 @@
       "durationValue": "1,5 Stunden"
     },
     "project": {
-      "title": "Innenarchitektur – als persönliche Geschichte!",
+      "title": "Interior Design – als persönliche Geschichte!",
       "description": "In meiner Arbeit bin ich überzeugt: Es ist nicht nur wichtig, ein schönes Interieur zu schaffen, sondern auch den Prozess transparent und verständlich zu machen. Ich erkläre detailliert die Phasen der Arbeit am Designprojekt und beziehe Sie in Entscheidungen ein – damit das zukünftige Interieur genau Ihren Stil und Lebensstil widerspiegelt.",
       "tagline": "Design beginnt mit Vertrauen. Und mit dem ersten Gespräch.",
       "durationLabel": "Dauer:",

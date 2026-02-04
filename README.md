@@ -1,4 +1,4 @@
-# Ekaterina Aust - Innenarchitektur
+# Ekaterina Aust - Interior Design
 
 Portfolio website for interior designer Ekaterina Aust based in Hildesheim, Germany.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the development guide for **Ekaterina Aust - Innenarchitektur** website.
+This is the development guide for **Ekaterina Aust - Interior Design** website.
 
 **Stack:** Next.js 16 + TypeScript + next-intl + CSS Modules + Netlify
 
@@ -307,7 +307,7 @@ export default async function PageName({
 When adding new content:
 
 - [ ] Add descriptive `alt` text to all images
-- [ ] Include keywords: Innenarchitektur, Hildesheim, Ekaterina Aust
+- [ ] Include keywords: Interior Design, Hildesheim, Ekaterina Aust
 - [ ] Update `sitemap.xml` with new pages
 - [ ] Add page to both language versions
 - [ ] Test canonical URLs work correctly
