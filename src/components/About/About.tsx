@@ -28,7 +28,7 @@ export default function About() {
                     <div className={styles.imageContainer}>
                         <Image
                             src="/images/ekatarina_aust_innenarchitektin.webp"
-                            alt="Ekaterina Aust - Innenarchitektin und Raumdesignerin in Hildesheim"
+                            alt="Ekaterina Aust - Interior Designerin in Hildesheim"
                             width={400}
                             height={500}
                             className={styles.image}
