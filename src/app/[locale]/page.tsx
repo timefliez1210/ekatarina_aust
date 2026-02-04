@@ -22,8 +22,8 @@ export default async function HomePage({
         name: 'Ekaterina Aust - Innenarchitektur',
         alternateName: 'Logica Innenarchitektur',
         description: locale === 'de'
-            ? 'Professionelle Innenarchitektin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design.'
-            : 'Профессиональный дизайнер интерьеров. Индивидуальные проекты спален, ванных комнат, кабинетов.',
+            ? 'Professionelle Interior Designerin in Hildesheim. Individuelle Raumgestaltung, Schlafzimmer- und Badezimmer-Design.'
+            : 'Профессиональный дизайнер интерьера. Индивидуальные проекты спален, ванных комнат, кабинетов.',
         url: 'https://ekaterina-aust.de',
         telephone: '+49 160 2332135',
         email: 'aust.ekaterina@gmail.com',
@@ -50,7 +50,7 @@ export default async function HomePage({
         founder: {
             '@type': 'Person',
             name: 'Ekaterina Aust',
-            jobTitle: locale === 'de' ? 'Innenarchitektin' : 'Дизайнер интерьеров'
+            jobTitle: locale === 'de' ? 'Interior Designerin' : 'Дизайнер интерьера'
         }
     };
 

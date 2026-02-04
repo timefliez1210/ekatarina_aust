@@ -63,8 +63,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
                     width: 800,
                     height: 800,
                     alt: locale === 'de'
-                        ? 'Ekaterina Aust Innenarchitektin Hildesheim'
-                        : 'Екатерина Ауст дизайнер интерьеров',
+                        ? 'Ekaterina Aust Interior Designerin Hildesheim'
+                        : 'Екатерина Ауст дизайнер интерьера',
                 },
             ],
         },
