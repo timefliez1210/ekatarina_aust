@@ -19,9 +19,13 @@
     margin-bottom: var(--spacing-2xl);
 }
 
-.renderImage {
+.renderImageWrapper {
+    position: relative;
     height: 400px;
-    width: auto;
+    flex: 1;
+}
+
+.renderImage {
     object-fit: contain;
 }
 
@@ -33,7 +37,7 @@
 }
 
 @media (max-width: 768px) {
-    .renderImage {
+    .renderImageWrapper {
         height: 300px;
     }
 }
@@ -44,8 +48,8 @@
         align-items: center;
     }
 
-    .renderImage {
-        height: auto;
+    .renderImageWrapper {
+        height: 300px;
         width: 100%;
         max-width: 300px;
     }
