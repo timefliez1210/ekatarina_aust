@@ -16,6 +16,8 @@ export default function ProjectRenders({ images, text }: ProjectRendersProps) {
             alt="3D render 1"
             width={800}
             height={800}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            quality={90}
             className={styles.renderImage}
           />
           <Image
@@ -23,6 +25,8 @@ export default function ProjectRenders({ images, text }: ProjectRendersProps) {
             alt="3D render 2"
             width={800}
             height={800}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            quality={90}
             className={styles.renderImage}
           />
         </div>

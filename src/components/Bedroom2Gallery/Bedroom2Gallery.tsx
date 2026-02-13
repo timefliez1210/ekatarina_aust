@@ -27,17 +27,17 @@ export default function Bedroom2Gallery({
                 {/* Row 1: Full width landscape */}
                 <div className={styles.fullWidthRow}>
                     <div className={styles.landscapeImage}>
-                        <Image src={landscapeImage} alt="Bedroom interior" fill />
+                        <Image src={landscapeImage} alt="Bedroom interior" fill sizes="100vw" quality={90} />
                     </div>
                 </div>
 
                 {/* Row 2: Two portrait images */}
                 <div className={styles.twoPortraitRow}>
                     <div className={styles.portraitImage}>
-                        <Image src={portraitImages[0]} alt="Bedroom design" fill />
+                        <Image src={portraitImages[0]} alt="Bedroom design" fill sizes="(max-width: 768px) 100vw, 50vw" />
                     </div>
                     <div className={styles.portraitImage}>
-                        <Image src={portraitImages[1]} alt="Bedroom design" fill />
+                        <Image src={portraitImages[1]} alt="Bedroom design" fill sizes="(max-width: 768px) 100vw, 50vw" />
                     </div>
                 </div>
 
@@ -50,18 +50,18 @@ export default function Bedroom2Gallery({
                 {/* Row 3: Large + 2 Small + Large */}
                 <div className={styles.fourImageGrid}>
                     <div className={styles.largeImage}>
-                        <Image src={row3Images.left} alt="Bedroom design" fill />
+                        <Image src={row3Images.left} alt="Bedroom design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleTop} alt="Bedroom detail" fill />
+                            <Image src={row3Images.middleTop} alt="Bedroom detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleBottom} alt="Bedroom detail" fill />
+                            <Image src={row3Images.middleBottom} alt="Bedroom detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                     </div>
                     <div className={styles.largeImage}>
-                        <Image src={row3Images.right} alt="Bedroom design" fill />
+                        <Image src={row3Images.right} alt="Bedroom design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                 </div>
             </div>

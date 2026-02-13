@@ -32,6 +32,7 @@ export default function ProjectGallery({
                                 src={img}
                                 alt={`Gallery image ${index + 1}`}
                                 fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
                             />
                         </div>
                     ))}
@@ -46,20 +47,20 @@ export default function ProjectGallery({
                 {/* 2 large + 2 small grid */}
                 <div className={styles.fourImageGrid}>
                     <div className={styles.largeImage}>
-                        <Image src={bottomImages.left} alt="Gallery image" fill />
+                        <Image src={bottomImages.left} alt="Gallery image" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
 
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={bottomImages.middleTop} alt="Gallery image" fill />
+                            <Image src={bottomImages.middleTop} alt="Gallery image" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={bottomImages.middleBottom} alt="Gallery image" fill />
+                            <Image src={bottomImages.middleBottom} alt="Gallery image" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                     </div>
 
                     <div className={styles.largeImage}>
-                        <Image src={bottomImages.right} alt="Gallery image" fill />
+                        <Image src={bottomImages.right} alt="Gallery image" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                 </div>
 

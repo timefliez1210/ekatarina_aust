@@ -37,16 +37,16 @@ export default function MosaikGallery({
             <div className={styles.sectionInner}>
                 {/* Row 1: Single large image */}
                 <div className={styles.singleLargeImage}>
-                    <Image src={topImage} alt="Interior design" fill />
+                    <Image src={topImage} alt="Interior design" fill sizes="100vw" quality={90} />
                 </div>
 
                 {/* Row 2: 1fr 2fr layout */}
                 <div className={styles.twoColumnLayout}>
                     <div className={styles.smallLeftImage}>
-                        <Image src={row2Images[0]} alt="Interior detail" fill />
+                        <Image src={row2Images[0]} alt="Interior detail" fill sizes="(max-width: 768px) 100vw, 33vw" />
                     </div>
                     <div className={styles.largeRightImage}>
-                        <Image src={row2Images[1]} alt="Interior design" fill />
+                        <Image src={row2Images[1]} alt="Interior design" fill sizes="(max-width: 768px) 100vw, 66vw" />
                     </div>
                 </div>
 
@@ -59,35 +59,35 @@ export default function MosaikGallery({
                 {/* Row 3: Same as bathroom - 2 large + 2 small */}
                 <div className={styles.fourImageGrid}>
                     <div className={styles.largeImage}>
-                        <Image src={row3Images.left} alt="Interior design" fill />
+                        <Image src={row3Images.left} alt="Interior design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleTop} alt="Interior detail" fill />
+                            <Image src={row3Images.middleTop} alt="Interior detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleBottom} alt="Interior detail" fill />
+                            <Image src={row3Images.middleBottom} alt="Interior detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                     </div>
                     <div className={styles.largeImage}>
-                        <Image src={row3Images.right} alt="Interior design" fill />
+                        <Image src={row3Images.right} alt="Interior design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                 </div>
 
                 {/* Row 4: Large, Large, 2 Small on right */}
                 <div className={styles.fourImageGridAlt}>
                     <div className={styles.largeImage}>
-                        <Image src={row4Images.left} alt="Interior design" fill />
+                        <Image src={row4Images.left} alt="Interior design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                     <div className={styles.largeImage}>
-                        <Image src={row4Images.middleTop} alt="Interior design" fill />
+                        <Image src={row4Images.middleTop} alt="Interior design" fill sizes="(max-width: 768px) 100vw, 40vw" />
                     </div>
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={row4Images.middleBottom} alt="Interior detail" fill />
+                            <Image src={row4Images.middleBottom} alt="Interior detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={row4Images.right} alt="Interior detail" fill />
+                            <Image src={row4Images.right} alt="Interior detail" fill sizes="(max-width: 768px) 50vw, 20vw" />
                         </div>
                     </div>
                 </div>
