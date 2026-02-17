@@ -99,7 +99,7 @@
     }
 
     .fourImageGrid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: var(--spacing-md);
     }
 
@@ -109,15 +109,5 @@
 
     .smallImage {
         aspect-ratio: 3/4;
-    }
-}
-
-@media (max-width: 640px) {
-    .fourImageGrid {
-        grid-template-columns: 1fr;
-    }
-
-    .smallImagesColumn {
-        flex-direction: column;
     }
 }

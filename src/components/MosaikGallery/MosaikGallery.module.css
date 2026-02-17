@@ -124,8 +124,9 @@
         grid-template-columns: 1fr;
     }
 
-    .fourImageGrid {
-        grid-template-columns: 1fr 1fr;
+    .fourImageGrid,
+    .fourImageGridAlt {
+        grid-template-columns: 1fr;
     }
 
     .smallImagesColumn {
@@ -134,15 +135,5 @@
 
     .smallImage {
         aspect-ratio: 3/4;
-    }
-}
-
-@media (max-width: 480px) {
-    .fourImageGrid {
-        grid-template-columns: 1fr;
-    }
-
-    .smallImagesColumn {
-        flex-direction: column;
     }
 }
