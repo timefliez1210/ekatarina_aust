@@ -35,6 +35,7 @@ export default function ProjectHero({
                         fill
                         className={styles.image}
                         priority
+                        sizes="(max-width: 968px) 80vw, (max-width: 1500px) 27vw, 400px"
                     />
                 </div>
 
@@ -72,6 +73,7 @@ export default function ProjectHero({
                                 alt={`${title} detail ${index + 1}`}
                                 fill
                                 className={styles.thumbnailImage}
+                                sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 27vw, 400px"
                             />
                         </div>
                     ))}

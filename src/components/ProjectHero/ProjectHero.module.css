@@ -112,8 +112,15 @@
     }
 
     .imageContainer {
-        aspect-ratio: 4/3;
+        aspect-ratio: unset;
         max-width: 100%;
+    }
+
+    .image {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        inset: auto !important;
     }
 
     .textContent {

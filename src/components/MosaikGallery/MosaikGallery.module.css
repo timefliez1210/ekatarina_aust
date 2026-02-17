@@ -129,7 +129,11 @@
     }
 
     .smallImagesColumn {
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .smallImage {
+        aspect-ratio: 3/4;
     }
 }
 
@@ -139,7 +143,6 @@
     }
 
     .smallImagesColumn {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
     }
 }

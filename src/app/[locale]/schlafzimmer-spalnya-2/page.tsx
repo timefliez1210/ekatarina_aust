@@ -84,7 +84,7 @@ export default async function Bedroom2Page({
                 text2={t.text2}
                 row3Images={{
                     left: "/images/Schlafzimmer-Design-2-section-4.jpg",
-                    middleTop: "/images/Schlafzimmer-Design-2-section-5.webp",
+                    middleTop: "/images/Schlafzimmer-Design-2-section-5.jpg",
                     middleBottom: "/images/Schlafzimmer-Design-2-section-6.jpg",
                     right: "/images/Schlafzimmer-Design-2-section-7.jpg"
                 }}

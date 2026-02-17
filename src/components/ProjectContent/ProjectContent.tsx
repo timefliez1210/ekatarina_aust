@@ -31,6 +31,7 @@ export default function ProjectContent({
                         alt={imageAlt || heading || 'Project detail'}
                         fill
                         className={styles.image}
+                        sizes="(max-width: 968px) 80vw, (max-width: 1500px) 40vw, 600px"
                     />
                 </div>
             </div>

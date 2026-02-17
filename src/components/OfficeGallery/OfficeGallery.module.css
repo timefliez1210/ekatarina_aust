@@ -114,6 +114,10 @@
     }
 
     .smallImagesColumn {
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .smallImage {
+        aspect-ratio: 3/4;
     }
 }
