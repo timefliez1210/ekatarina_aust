@@ -50,10 +50,10 @@ export default function OfficeGallery({
                     </div>
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleTop} alt="Office detail" fill quality={100} sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
+                            <Image src={row3Images.middleTop} alt="Office detail" fill quality={100} sizes="(max-width: 968px) 80vw, (max-width: 1500px) 16vw, 240px" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={row3Images.middleBottom} alt="Office detail" fill quality={100} sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
+                            <Image src={row3Images.middleBottom} alt="Office detail" fill quality={100} sizes="(max-width: 968px) 80vw, (max-width: 1500px) 16vw, 240px" />
                         </div>
                     </div>
                     <div className={styles.largeImage}>
