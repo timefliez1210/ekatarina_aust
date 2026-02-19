@@ -17,14 +17,9 @@
 }
 
 .renderImage {
-    position: relative;
-    aspect-ratio: 3/4;
-    overflow: hidden;
-    background-color: var(--color-bg-alt);
-}
-
-.renderImage img {
-    object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .creditsSection {
@@ -46,16 +41,5 @@
         grid-template-columns: 1fr;
         width: 80%;
         margin: 0 auto var(--spacing-xl);
-    }
-
-    .renderImage {
-        aspect-ratio: unset;
-    }
-
-    .renderImage img {
-        position: relative !important;
-        width: 100% !important;
-        height: auto !important;
-        inset: auto !important;
     }
 }

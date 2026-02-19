@@ -20,7 +20,8 @@
 }
 
 .renderImage {
-    height: 400px;
+    height: 35vw;
+    max-height: 450px;
     width: auto;
     object-fit: contain;
 }
@@ -33,12 +34,6 @@
 }
 
 @media (max-width: 768px) {
-    .renderImage {
-        height: 300px;
-    }
-}
-
-@media (max-width: 480px) {
     .imagesRow {
         flex-direction: column;
         align-items: center;
@@ -46,7 +41,7 @@
 
     .renderImage {
         height: auto;
-        width: 100%;
-        max-width: 300px;
+        width: 80%;
+        max-height: none;
     }
 }
