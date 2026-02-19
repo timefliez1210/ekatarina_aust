@@ -46,7 +46,7 @@ export default function MosaikGallery({
                         <Image src={row2Images[0]} alt="Interior detail" fill quality={100} sizes="(max-width: 768px) 80vw, (max-width: 1500px) 27vw, 400px" />
                     </div>
                     <div className={styles.largeRightImage}>
-                        <Image src={row2Images[1]} alt="Interior design" fill quality={100} sizes="(max-width: 768px) 80vw, (max-width: 1500px) 53vw, 800px" />
+                        <Image src={row2Images[1]} alt="Interior design" fill quality={100} sizes="(max-width: 768px) 90vw, (max-width: 1500px) 60vw, 900px" />
                     </div>
                 </div>
 

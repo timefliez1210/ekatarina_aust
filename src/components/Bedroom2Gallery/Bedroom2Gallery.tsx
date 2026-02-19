@@ -27,7 +27,7 @@ export default function Bedroom2Gallery({
                 {/* Row 1: Full width landscape */}
                 <div className={styles.fullWidthRow}>
                     <div className={styles.landscapeImage}>
-                        <Image src={landscapeImage} alt="Bedroom interior" fill quality={100} sizes="(max-width: 1500px) 80vw, 1200px" />
+                        <Image src={landscapeImage} alt="Bedroom interior" fill quality={100} sizes="(max-width: 1500px) 90vw, 1400px" />
                     </div>
                 </div>
 
