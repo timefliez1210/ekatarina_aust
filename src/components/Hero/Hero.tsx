@@ -38,6 +38,7 @@ export default function Hero() {
                         alt="Ekaterina Aust Interior Design Hildesheim - Logo"
                         width={200}
                         height={200}
+                        quality={100}
                         className={styles.logoImage}
                         priority
                         fetchPriority="high"

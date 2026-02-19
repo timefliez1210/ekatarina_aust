@@ -30,6 +30,7 @@ export default function ProjectContent({
                         src={imageSrc}
                         alt={imageAlt || heading || 'Project detail'}
                         fill
+                        quality={100}
                         className={styles.image}
                         sizes="(max-width: 968px) 80vw, (max-width: 1500px) 40vw, 600px"
                     />

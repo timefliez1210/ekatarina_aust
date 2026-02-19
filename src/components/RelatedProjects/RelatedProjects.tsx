@@ -30,6 +30,7 @@ export default function RelatedProjects({ title, projects, locale }: RelatedProj
                                         src={project.image}
                                         alt={project.label}
                                         fill
+                                        quality={100}
                                         className={styles.projectImage}
                                         sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                                     />

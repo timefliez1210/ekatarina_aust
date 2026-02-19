@@ -33,6 +33,7 @@ export default function ProjectHero({
                         src={mainImage}
                         alt={imageAlt || title}
                         fill
+                        quality={100}
                         className={styles.image}
                         priority
                         sizes="(max-width: 968px) 80vw, (max-width: 1500px) 27vw, 400px"
@@ -72,6 +73,7 @@ export default function ProjectHero({
                                 src={thumb}
                                 alt={`${title} detail ${index + 1}`}
                                 fill
+                                quality={100}
                                 className={styles.thumbnailImage}
                                 sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 27vw, 400px"
                             />

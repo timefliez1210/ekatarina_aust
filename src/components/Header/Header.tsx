@@ -44,6 +44,7 @@ export default function Header({ showLogo = false }: HeaderProps) {
                             alt="logica"
                             width={40}
                             height={40}
+                            quality={100}
                             className={styles.logoImage}
                         />
                     </Link>

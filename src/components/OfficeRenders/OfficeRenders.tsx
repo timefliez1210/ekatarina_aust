@@ -16,9 +16,9 @@ export default function OfficeRenders({
         <section className={styles.officeRenders}>
             <div className={styles.rendersInner}>
                 <div className={styles.imagesRow}>
-                    <Image src={images[0]} alt="3D Render" width={800} height={800} className={styles.renderImage} />
-                    <Image src={images[1]} alt="3D Render" width={800} height={800} className={styles.renderImage} />
-                    <Image src={images[2]} alt="3D Render" width={800} height={800} className={styles.renderImage} />
+                    <Image src={images[0]} alt="3D Render" width={800} height={800} quality={100} className={styles.renderImage} />
+                    <Image src={images[1]} alt="3D Render" width={800} height={800} quality={100} className={styles.renderImage} />
+                    <Image src={images[2]} alt="3D Render" width={800} height={800} quality={100} className={styles.renderImage} />
                 </div>
 
                 <div className={styles.creditsSection}>

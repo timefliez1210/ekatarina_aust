@@ -49,6 +49,7 @@ export default function Projects() {
                                             src={project.image}
                                             alt={t(project.labelKey)}
                                             fill
+                                            quality={100}
                                             className={styles.projectImage}
                                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                         />
@@ -62,6 +63,7 @@ export default function Projects() {
                                             src={project.image}
                                             alt={t(project.labelKey)}
                                             fill
+                                            quality={100}
                                             className={styles.projectImage}
                                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                         />

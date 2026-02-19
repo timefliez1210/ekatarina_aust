@@ -32,6 +32,7 @@ export default function ProjectGallery({
                                 src={img}
                                 alt={`Gallery image ${index + 1}`}
                                 fill
+                                quality={100}
                                 sizes="(max-width: 968px) 80vw, (max-width: 1500px) 27vw, 400px"
                             />
                         </div>
@@ -47,20 +48,20 @@ export default function ProjectGallery({
                 {/* 2 large + 2 small grid */}
                 <div className={styles.fourImageGrid}>
                     <div className={styles.largeImage}>
-                        <Image src={bottomImages.left} alt="Gallery image" fill sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 32vw, 480px" />
+                        <Image src={bottomImages.left} alt="Gallery image" fill quality={100} sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 32vw, 480px" />
                     </div>
 
                     <div className={styles.smallImagesColumn}>
                         <div className={styles.smallImage}>
-                            <Image src={bottomImages.middleTop} alt="Gallery image" fill sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
+                            <Image src={bottomImages.middleTop} alt="Gallery image" fill quality={100} sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
                         </div>
                         <div className={styles.smallImage}>
-                            <Image src={bottomImages.middleBottom} alt="Gallery image" fill sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
+                            <Image src={bottomImages.middleBottom} alt="Gallery image" fill quality={100} sizes="(max-width: 968px) 40vw, (max-width: 1500px) 16vw, 240px" />
                         </div>
                     </div>
 
                     <div className={styles.largeImage}>
-                        <Image src={bottomImages.right} alt="Gallery image" fill sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 32vw, 480px" />
+                        <Image src={bottomImages.right} alt="Gallery image" fill quality={100} sizes="(max-width: 640px) 80vw, (max-width: 968px) 40vw, (max-width: 1500px) 32vw, 480px" />
                     </div>
                 </div>
 

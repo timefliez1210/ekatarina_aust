@@ -31,6 +31,7 @@ export default function About() {
                             alt="Ekaterina Aust - Interior Designerin in Hildesheim"
                             width={400}
                             height={500}
+                            quality={100}
                             className={styles.image}
                             priority
                         />
